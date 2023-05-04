@@ -1,0 +1,11 @@
+[
+    {
+        "type":"MOD_INFO",
+        "id": "WIELD_WILD_WEAPONS",
+        "name": "WIELD_WILD_WEAPONS",
+        "authors":["NappingOcean"],
+        "description": "짐승의 자세에서 비롯된 새로운 무기술을 추가합니다. 이 무기술은 특정한 석상을 찾아서 그 비급을 얻을 수 있습니다.",
+        "category": "misc_additions",
+        "dependencies": ["bn"]
+    }
+]

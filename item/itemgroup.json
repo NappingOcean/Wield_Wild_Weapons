@@ -1,0 +1,27 @@
+[
+    {
+        "type":"item_group",
+        "id":"trash",
+        "items":[["W3_stone_mirror", 2]]
+    },
+    {
+        "type":"item_group",
+        "id":"museum_misc",
+        "items":[["W3_stone_mirror", 20]]
+    },
+    {
+        "type":"item_group",
+        "id":"pawn",
+        "items":[["W3_stone_mirror", 10]]
+    },
+    {
+        "type":"item_group",
+        "id":"antique",
+        "items":[["W3_stone_mirror", 15]]
+    },
+    {
+        "type":"item_group",
+        "id":"art",
+        "items":[["W3_stone_mirror", 15]]
+    }
+]

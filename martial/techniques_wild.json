@@ -1,0 +1,332 @@
+[
+    {
+        "type": "technique",
+        "id":"W3_tec_struggle",
+        "name":"짐승의 몸부림",
+        "skill_requirements":[{"name":"melee", "level": 3}],
+        "melee_allowed": true,
+        "defensive":true,
+        "grab_break": true,
+        "messages":[
+            "%s(이)가 붙잡으려 했으나, 야수처럼 거칠게 뿌리쳤다!", 
+            "%s(이)가 붙잡으려 했으나, <npcname>(은)는 거칠게 뿌리쳤다!"
+        ],
+        "//":"짐승 무기술 공용 테크닉"
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_wolf_crit1",
+        "name":"피투성이 이빨",
+        "messages":["연이어 공격하여 %s의 얼을 빼놨다!","<npcname>(이)가 연달아 공격해 %s의 얼을 뺐다!"],
+        "skill_requirements":[{"name":"melee", "level": 3}],
+        "melee_allowed":true,
+        "req_buffs":["W3_buff_wolf_crit"],
+        "stun_dur": 1,
+        "mult_bonuses":[
+            {"stat":"movecost", "scale": 0.7},
+            {"stat":"damage", "type":"cut", "scale": 1.1},
+            {"stat":"damage", "type":"bash", "scale": 1.1},
+            {"stat":"damage", "type":"stab", "scale": 1.1}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_wolf_crit2",
+        "name":"숨통 끊기",
+        "messages":["%s의 급소를 참혹하게 찢어발겼다!","<npcname>(이)가 무참히 %s의 급소를 찢어냈다!"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "req_buffs":["W3_buff_wolf_crit"],
+        "crit_tec":true,
+        "mult_bonuses":[
+            {"stat":"movecost", "scale": 0.9},
+            {"stat":"damage", "type":"cut", "scale": 1.5},
+            {"stat":"damage", "type":"bash", "scale": 1.5},
+            {"stat":"damage", "type":"stab", "scale": 1.5}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_wolf_dgc",
+        "name":"그믐달의 비소",
+        "messages":["허상에 속은 %s(을)를 비웃으며 칼날을 박아넣었다!", "<npcname>(이)가 빈틈을 보인 %s에게 칼날을 쑤셔박았다!"],
+        "skill_requirements":[{"name":"melee","level":5}],
+        "melee_allowed": true,
+        "dodge_counter": true, 
+        "crit_ok":true,
+        "flat_bonuses":[
+            {"stat":"arpen","type":"cut","scaling-stat":"str","scale":1.0},
+            {"stat":"arpen","type":"bash","scaling-stat":"str","scale":1.0},
+            {"stat":"arpen","type":"stab","scaling-stat":"str","scale":1.0}
+        ],
+        "mult_bonuses":[
+            {"stat":"movecost", "scale": 0.0},
+            {"stat":"damage","type":"cut","scale":1.25},
+            {"stat":"damage","type":"bash","scale":1.25},
+            {"stat":"damage","type":"stab","scale":1.25}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_bear_feint",
+        "name":"베어풋",
+        "messages":["공격이 빗나갔지만 날쌔게 자세를 고쳤다.", "<npcname>은 자세를 다시 똑바로 잡았다."],
+        "skill_requirements":[{"name":"melee","level":2}],
+        "melee_allowed": true,
+        "defensive": true,
+        "miss_recovery": true,
+        "mult_bonuses":[{"stat":"movecost","scale":0.5}]
+
+    },
+    {
+        "type":"technique",
+        "id":"W3_tec_bear_crit",
+        "name":"곰 찍기",
+        "messages":["곰 앞발처럼 %s(을)를 후려치듯 베었다!", "<npcname>(이)가 곰 앞발처럼 후려치듯 %s(을)를 베었다!"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "stun_dur":1,
+        "down_dur":2
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_bear_slash",
+        "name":"북풍 가르기",
+        "messages":["","<npcname>"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "req_buffs":["W3_buff_bear_pause"],
+        "mult_bonuses":[
+            {"stat":"movecost", "scale": 0.8},
+            {"stat":"damage","type":"cut","scale":1.05},
+            {"stat":"damage","type":"bash","scale":1.05},
+            {"stat":"damage","type":"stab","scale":1.05}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_bear_revenge",
+        "name":"맹웅 강타",
+        "messages":["사나운 곰처럼 %s(을)를 산산조각냈다!","<npcname>(이)가 사나운 곰처럼 %s(을)를 산산조각냈다!"],
+        "skill_requirements":[{"name":"melee","level":5}],
+        "melee_allowed": true,
+        "req_buffs":["W3_buff_bear_block"],
+        "crit_tec":true,
+        "mult_bonuses":[
+            {"stat":"damage","type":"cut","scale":1.35},
+            {"stat":"damage","type":"bash","scale":1.35},
+            {"stat":"damage","type":"stab","scale":1.35}
+        ]
+
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_goat_butt",
+        "name":"들이받기",
+        "messages":["산양이 들이받듯 창자루로 후려쳐 밀어냈다!", "<npcname>은 %s(을)를 창자루로 밀쳐냈다!"],
+        "skill_requirements":[{"name":"melee","level":2}],
+        "melee_allowed": true,
+        "knockback_dist":1,
+        "stun_dur":2,
+        "crit_tec":true,
+        "req_buffs":["W3_buff_goat_pause"],
+        "mult_bonuses":[
+            {"stat":"movecost", "scale":0.5},
+            {"stat":"damage","type":"cut", "scale": 0.0},
+            {"stat":"damage","type":"bash", "scale": 2.0},
+            {"stat":"damage","type":"stab", "scale": 0.0}
+        ]
+    },
+    {
+        "type":"technique",
+        "id":"W3_tec_goat_jump",
+        "name":"벼랑뛰기",
+        "messages":["벽을 차고 뛰어 %s(을)를 내리찍었다!", "<npcname>은 벽을 짚고 뛰어 %s(을)를 내리찍었다!"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "crit_ok":true,
+        "req_buffs":["W3_buff_goat_move2"],
+        "knockback_dist":1,
+        "mult_bonuses":[{"stat":"damage","type":"stab","scale":1.25}]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_goat_wreck",
+        "name":"진형 붕괴",
+        "messages":["온힘을 담은 질주에 %s의 대열이 무너졌다!", "<npcname>(이)가 대열을 무너트렸다!"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "crit_tec":true,
+        "down_dur":2,
+        "req_buffs":["W3_buff_goat_move1"],
+        "knockback_dist":1,
+        "powerful_knockback":true,
+        "aoe":"impale"
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_goat_dance",
+        "name":"산양의 춤",
+        "messages":["벽을 짚고 뛰면서 %s에게 반격을 가했다!", "<npcname>(이)가 벽을 짚고 뛰면서 %s에게 반격을 가했다!"],
+        "skill_requirements":[{"name":"melee","level":5}],
+        "melee_allowed": true,
+        "req_buffs":["W3_buff_goat_static"],
+        "dodge_counter": true,
+        "mult_bonuses":[
+            {"stat":"movecost", "scale":0.0},
+            {"stat":"damage", "type":"cut", "scale":0.5},
+            {"stat":"damage", "type":"bash", "scale":1.25},
+            {"stat":"damage", "type":"stab", "scale":0.5}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_boar_sweep",
+        "name":"엄니 받기",
+        "messages":["%s의 하단을 무너트렸다!", "<npcname>(이)가 %s의 하단을 무너트렸다!"],
+        "skill_requirements":[{"name":"melee","level":1}],
+        "melee_allowed": true,
+        "req_buffs":["W3_buff_boar_gethit"],
+        "down_dur":2,
+        "mult_bonuses":[
+            {"stat":"movecost", "scale": 0.8},
+            {"stat":"damage", "type":"cut", "scale": 0.5},
+            {"stat":"damage", "type":"bash", "scale": 0.5},
+            {"stat":"damage", "type":"stab", "scale": 0.5}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_boar_slide",
+        "name":"산사태",
+        "messages":["넘어진 %s에게 타격의 세례가 쏟아냈다!", "<npcname>(이)가 넘어진 %s에게 공격을 쏟아냈다!"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "weighting": 1,
+        "downed_target": true,
+        "crit_ok":true,
+        "mult_bonuses":[
+            {"stat":"damage","type":"cut","scale": 1.25},
+            {"stat":"damage","type":"bash","scale": 1.25},
+            {"stat":"damage","type":"stab","scale": 1.25}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_donkey_rapid",
+        "name":"뒷발길질",
+        "messages":["기습적으로 무기를 휘둘러 때렸다!","<npcname>(이)가 기습적으로 무기를 휘둘렀다!"],
+        "skill_requirements":[{"name":"melee","level":3}],
+        "melee_allowed": true,
+        "req_buffs":["W3_buff_donkey_gethit"],
+        "mult_bonuses":[
+            {"stat":"movecost", "scale":0.6},
+            {"stat":"damage", "type":"cut", "scale":0.8},
+            {"stat":"damage", "type":"bash", "scale":0.8},
+            {"stat":"damage", "type":"stab", "scale":0.8}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_donkey_sweep",
+        "name":"울타리 꺾기",
+        "messages":["%s의 자세를 무너트릴 기세로 후려쳤다!","<npcname>(이)가 %s(을)를 억세게 후려쳤다!"],
+        "skill_requirements":[{"name":"melee","level":3}],
+        "melee_allowed": true,
+        "req_buffs":["W3_buff_donkey_hit"],
+        "down_dur":2,
+        "crit_ok":true,
+        "mult_bonuses":[{"stat":"movecost", "scale": 0.8}]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_donkey_dgc",
+        "name":"나려타곤",
+        "messages":["순간 자세를 납작 낮추어 %s의 발을 걸어 넘어트렸다!", "<npcname>(이)가 자세를 납작 낮춰 %s의 발을 걸었다!"],
+        "skill_requirements":[{"name":"melee","level":5}],
+        "melee_allowed": true,
+        "dodge_counter":true,
+        "crit_tec":true,
+        "down_dur":2,
+        "mult_bonuses":[
+            {"stat":"movecost", "scale":0.5},
+            {"stat":"damage", "type":"cut", "scale":0.5},
+            {"stat":"damage", "type":"bash", "scale":0.5},
+            {"stat":"damage", "type":"stab", "scale":0.5}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_donkey_stomp",
+        "name":"즈려밟기",
+        "messages":["넘어진 %s(을)를 무자비하게 내리쳤다!", "<npcname>(은)는 넘어진 %s(을)를 무자비하게 내리쳤다!"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "downed_target": true,
+        "crit_ok":true,
+        "weighting": 2,
+        "mult_bonuses":[
+            {"stat":"movecost", "scale":0.75},
+            {"stat":"damage", "type":"bash", "scale": 1.2}
+        ]
+
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_porcu_blc1",
+        "name":"가시 반격",
+        "messages":["공격해온 %s(이)가 도리어 음푹 찔렸다!", "<npcname>(이)가 공격해온 %s(을)를 음푹 찔렀다!"],
+        "skill_requirements":[{"name":"melee","level":3}],
+        "melee_allowed": true,
+        "block_counter":true,
+        "stun_dur":1,
+        "mult_bonuses":[{"stat":"movecost", "scale":0.0}]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_porcu_blc2",
+        "name":"쑤셔박기",
+        "messages":["공격해온 %s의 급소를 후벼파듯 도려냈다!", "<npcname>(이)가 %s의 급소를 도려냈다!"],
+        "skill_requirements":[{"name":"melee","level":5}],
+        "melee_allowed": true,
+        "block_counter":true,
+        "crit_tec":true,
+        "stun_dur":3,
+        "mult_bonuses":[{"stat":"movecost", "scale":0.0}]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_porcu_bite",
+        "name":"광란의 앞니",
+        "messages":["기절한 %s(을)를 짧게 잡은 칼날로 재빠르게 갈랐다!", "<npcname>(이)가 칼날을 짧게 잡고 기절한 %s(을)를 갈랐다!"],
+        "skill_requirements":[{"name":"melee","level":3}],
+        "melee_allowed": true,
+        "stunned_target":true,
+        "mult_bonuses":[
+            {"stat":"movecost", "scale":0.5},
+            {"stat":"damage", "type":"cut", "scale": 0.75},
+            {"stat":"damage", "type":"bash", "scale": 0.75},
+            {"stat":"damage", "type":"stab", "scale": 0.75}
+        ]
+    },
+    {
+        "type": "technique",
+        "id":"W3_tec_porcu_pierce",
+        "name":"파고드는 가시",
+        "messages":["기절한 %s의 급소에 칼날을 깊게 박아넣었다!", "<npcname>(은)는 기절한 %s의 급소에 칼날을 깊이 박았다!"],
+        "skill_requirements":[{"name":"melee","level":4}],
+        "melee_allowed": true,
+        "stunned_target":true,
+        "crit_tec":true,
+        "flat_bonuses":[
+            {"stat":"arpen", "type":"cut", "scaling-stat":"str", "scale":0.5},
+            {"stat":"arpen", "type":"bash", "scaling-stat":"str", "scale":0.5},
+            {"stat":"arpen", "type":"stab", "scaling-stat":"str", "scale":0.5}
+        ],
+        "mult_bonuses":[
+            {"stat":"damage", "type":"cut", "scale": 1.25},
+            {"stat":"damage", "type":"bash", "scale": 1.25},
+            {"stat":"damage", "type":"stab", "scale": 1.25}
+        ]
+    }
+]

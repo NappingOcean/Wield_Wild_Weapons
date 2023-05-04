@@ -1,0 +1,36 @@
+[
+    {
+        "type":"ter_furn_transform",
+        "id":"W3_statue_reveal1",
+        "fail_message":"",
+        "furniture":[
+            {
+                "result":[
+                    ["W3_f_statue",30],
+                    ["f_statue",70]
+                ],
+                "valid_furniture":["f_statue"],
+                "message":""
+            }
+        ]
+    },
+    {
+        "type":"ter_furn_transform",
+        "id":"W3_statue_reveal2",
+        "fail_message":"이 석상은 아무래도 보통의 석상인 것 같다...",
+        "furniture":[
+            {
+                "result":[
+                    ["W3_statue_beast1",10],
+                    ["W3_statue_beast2",10],
+                    ["W3_statue_beast3",10],
+                    ["W3_statue_beast4",10],
+                    ["W3_statue_beast5",10],
+                    ["W3_statue_beast6",10]
+                ],
+                "valid_furniture":["f_statue"],
+                "message":"돌거울을 비추자 본래의 모습이 드러났다!"
+            }
+        ]
+    }
+]

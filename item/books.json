@@ -1,0 +1,56 @@
+[
+    {
+        "id":"W3_manual_wolf",
+        "copy-from":"book_martial",
+        "type":"BOOK",
+        "name":{"str_sp":"이빨의 서"},
+        "looks_like":"manual_eskrima",
+        "description":"\"늑대의 이빨\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다.",
+        "martial_art":"W3_MA_wolf"
+    },
+    {
+        "id":"W3_manual_bear",
+        "copy-from":"book_martial",
+        "type":"BOOK",
+        "name":{"str_sp":"발톱의 서"},
+        "looks_like":"manual_eskrima",
+        "description":"\"곰의 발톱\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다.",
+        "martial_art":"W3_MA_bear"
+    },
+    {
+        "id":"W3_manual_goat",
+        "copy-from":"book_martial",
+        "type":"BOOK",
+        "name":{"str_sp":"뿔의 서"},
+        "looks_like":"manual_eskrima",
+        "description":"\"산양의 뿔\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다.",
+        "martial_art":"W3_MA_goat"
+    },
+    {
+        "id":"W3_manual_boar",
+        "copy-from":"book_martial",
+        "type":"BOOK",
+        "name":{"str_sp":"엄니의 서"},
+        "looks_like":"manual_eskrima",
+        "description":"\"멧돼지의 엄니\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다.",
+        "martial_art":"W3_MA_boar"
+    },
+    {
+        "id":"W3_manual_donkey",
+        "copy-from":"book_martial",
+        "type":"BOOK",
+        "name":{"str_sp":"발굽의 서"},
+        "looks_like":"manual_eskrima",
+        "description":"\"나귀의 발굽\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다.",
+        "martial_art":"W3_MA_donkey"
+    },
+    {
+        "id":"W3_manual_porcupine",
+        "copy-from":"book_martial",
+        "type":"BOOK",
+        "name":{"str_sp":"가시의 서"},
+        "looks_like":"manual_eskrima",
+        "description":"\"호저의 가시\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다.",
+        "martial_art":"W3_MA_porcupine"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "type":"mod_tileset",
+        "compatibility":[ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MSX++DEAD_PEOPLE" ],
+        "tiles-new":[
+            {
+                "file": "W3_tileset_large.png",
+                "sprite_width": 64,
+                "sprite_height": 64,
+                "sprite_offset_x": -16,
+                "sprite_offset_y": -32,
+                "tiles":[
+                    {"id":"W3_statue_beast1", "fg":0, "rotates":false},
+                    {"id":"W3_statue_beast2", "fg":1, "rotates":false},
+                    {"id":"W3_statue_beast3", "fg":2, "rotates":false},
+                    {"id":"W3_statue_beast4", "fg":3, "rotates":false},
+                    {"id":"W3_statue_beast5", "fg":4, "rotates":false},
+                    {"id":"W3_statue_beast6", "fg":5, "rotates":false}
+                ]
+            },
+            {
+                "file": "W3_tileset_normal.png",
+                "sprite_width": 32,
+                "sprite_height": 32,
+                "sprite_offset_x": 0,
+                "sprite_offset_y": 0,
+                "tiles":[
+                    {"id":"W3_stone_mirror", "fg":0, "rotates":false},
+                    {"id":"overlay_wielded_W3_stone_mirror", "fg":1, "rotates":false},
+                    {"id":"W3_stone_mirror_dead", "fg":2, "rotates":false},
+                    {"id":"overlay_wielded_W3_stone_mirror_dead", "fg":3, "rotates":false}
+                ]
+            }
+        ]
+    }
+]

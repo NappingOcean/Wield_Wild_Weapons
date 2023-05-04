@@ -1,0 +1,68 @@
+[
+    {
+        "type":"mutation",
+        "id":"W3_mut_wild_stagen1",
+        "name":{"str":"달빛의 문장"},
+        "points":2,
+        "description":"달의 신비가 깃들었다. 스태미나 10% 추가 재생",
+        "valid":false,
+        "purifiable":false,
+        "stamina_regen_modifier": 0.1,
+        "max_stamina_modifier": 1.0
+    },
+    {
+        "type":"mutation",
+        "id":"W3_mut_wild_stagen2",
+        "name":{"str":"요새의 문장"},
+        "points":2,
+        "description":"지독한 근성이 깃들었다. 스태미나 10% 추가 재생",
+        "valid":false,
+        "purifiable":false,
+        "stamina_regen_modifier": 0.1,
+        "max_stamina_modifier": 1.0
+    },
+    {
+        "type":"mutation",
+        "id":"W3_mut_wild_stamax1",
+        "name":{"str":"북풍의 문장"},
+        "points":2,
+        "description":"북풍의 힘이 깃들었다. 스태미나 최대치 5% 상승",
+        "valid":false,
+        "purifiable":false,
+        "stamina_regen_modifier": 0.0,
+        "max_stamina_modifier": 1.05
+    },
+    {
+        "type":"mutation",
+        "id":"W3_mut_wild_stamax2",
+        "name":{"str":"태산의 문장"},
+        "points":2,
+        "description":"태산의 기개가 깃들었다. 스태미나 최대치 5% 상승",
+        "valid":false,
+        "purifiable":false,
+        "stamina_regen_modifier": 0.0,
+        "max_stamina_modifier": 1.05
+    },
+    {
+        "type":"mutation",
+        "id":"W3_mut_wild_staall1",
+        "name":{"str":"벼랑의 문장"},
+        "points":2,
+        "description":"벼랑을 등진 용맹이 깃들었다. 스태미나 최대치 3% 상승. 스태미나 3% 추가 재생.",
+        "valid":false,
+        "purifiable":false,
+        "stamina_regen_modifier": 0.03,
+        "max_stamina_modifier": 1.03
+    },
+    {
+        "type":"mutation",
+        "id":"W3_mut_wild_staall2",
+        "name":{"str":"부동의 문장"},
+        "points":2,
+        "description":"무슨 일에도 동요치 않는 뚝심이 깃들었다. 스태미나 최대치 3% 상승. 스태미나 3% 추가 재생.",
+        "valid":false,
+        "purifiable":false,
+        "stamina_regen_modifier": 0.03,
+        "max_stamina_modifier": 1.03
+    }
+]

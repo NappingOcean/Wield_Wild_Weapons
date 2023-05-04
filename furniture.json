@@ -1,0 +1,126 @@
+[
+    {
+        "type":"furniture",
+        "copy-from":"f_statue",
+        "id":"W3_f_statue",
+        "description":"이 동상은 아무래도 평범한 석상인 것 같다.",
+        "symbol":"S",
+        "color":"dark_gray"
+    },
+    {
+        "type":"furniture",
+        "copy-from":"f_statue",
+        "id":"W3_statue_beast1",
+        "name":"늑대 석상",
+        "description":"당신을 노란 눈으로 노려보는 늑대 석상입니다.\n아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다.",
+        "symbol":"S",
+        "color":"dark_gray",
+        "bash": {
+            "str_min": 24,
+            "str_max": 40,
+            "sound": "쿠르르르!",
+            "sound_fail": "툭.",
+            "items": [ 
+                { "item": "rock", "count": [ 1, 6 ] },
+                {"item":"W3_soul_wolf"}
+            ]
+          }
+    },
+    {
+        "type":"furniture",
+        "copy-from":"f_statue",
+        "id":"W3_statue_beast2",
+        "name":"곰 석상",
+        "description":"당신을 노란 눈으로 노려보는 곰 석상입니다.\n아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다.",
+        "symbol":"S",
+        "color":"dark_gray",
+        "bash": {
+            "str_min": 24,
+            "str_max": 40,
+            "sound": "쿠르르르!",
+            "sound_fail": "툭.",
+            "items": [ 
+                { "item": "rock", "count": [ 1, 6 ] },
+                {"item":"W3_soul_bear"}
+            ]
+          }
+    },
+    {
+        "type":"furniture",
+        "copy-from":"f_statue",
+        "id":"W3_statue_beast3",
+        "name":"산양 석상",
+        "description":"당신을 노란 눈으로 노려보는 산양 석상입니다.\n아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다.",
+        "symbol":"S",
+        "color":"dark_gray",
+        "bash": {
+            "str_min": 24,
+            "str_max": 40,
+            "sound": "쿠르르르!",
+            "sound_fail": "툭.",
+            "items": [ 
+                { "item": "rock", "count": [ 1, 6 ] },
+                {"item":"W3_soul_goat"}
+            ]
+          }
+    },
+    {
+        "type":"furniture",
+        "copy-from":"f_statue",
+        "id":"W3_statue_beast4",
+        "name":"멧돼지 석상",
+        "description":"당신을 노란 눈으로 노려보는 멧돼지 석상입니다.\n아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다.",
+        "symbol":"S",
+        "color":"dark_gray",
+        "bash": {
+            "str_min": 24,
+            "str_max": 40,
+            "sound": "쿠르르르!",
+            "sound_fail": "툭.",
+            "items": [ 
+                { "item": "rock", "count": [ 1, 6 ] },
+                {"item":"W3_soul_boar"}
+            ]
+          }
+    },
+    {
+        "type":"furniture",
+        "copy-from":"f_statue",
+        "id":"W3_statue_beast5",
+        "name":"나귀 석상",
+        "description":"당신을 노란 눈으로 노려보는 나귀 석상입니다.\n아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다.",
+        "symbol":"S",
+        "color":"dark_gray",
+        "bash": {
+            "str_min": 24,
+            "str_max": 40,
+            "sound": "쿠르르르!",
+            "sound_fail": "툭.",
+            "items": [ 
+                { "item": "rock", "count": [ 1, 6 ] },
+                {"item":"W3_soul_donkey"}
+            ]
+          }
+    },
+    {
+        "type":"furniture",
+        "copy-from":"f_statue",
+        "id":"W3_statue_beast6",
+        "name":"호저 석상",
+        "description":"당신을 노란 눈으로 노려보는 호저 석상입니다.\n아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다.",
+        "symbol":"S",
+        "color":"dark_gray",
+        "bash": {
+            "str_min": 24,
+            "str_max": 40,
+            "sound": "쿠르르르!",
+            "sound_fail": "툭.",
+            "items": [ 
+                { "item": "rock", "count": [ 1, 6 ] },
+                {"item":"W3_soul_porcu"}
+            ]
+          }
+    }
+        
+        
+]

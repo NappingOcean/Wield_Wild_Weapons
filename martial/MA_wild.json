@@ -1,0 +1,500 @@
+[
+    {
+        "type": "martial_art",
+        "id": "W3_MA_wolf",
+        "name": "늑대의 이빨",
+        "description": "이 무술은 늑대의 움직임을 본따 고안되었습니다. 날카로운 감각으로 사냥감을 포착하고, 끈질기게 추적하여 그 이빨로 숨통을 끊습니다. 당신 손에 쥔 그것은 늑대의 이빨이며, 달빛 속에서 사냥은 멈추지 않을 것입니다.",
+        "initiate": ["한 마리 늑대처럼, 이빨을 들이밀 최적의 타이밍을 잽니다.", "%s(이)가 늑대같은 자세를 취합니다."],
+        "learn_difficulty": 10,
+        "primary_skill":"cutting",
+        "strictly_melee":true,
+        "static_buffs": [
+            {
+                "id":"W3_buff_wolf_static",
+                "name": "늑대의 감각",
+                "description":"감각을 집중하여 상대의 움직임을 정확히 포착합니다.\n명중이 지각력의 25% 만큼, 회피가 민첩의 25%만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 3}],
+                "melee_allowed":true,
+                "flat_bonuses":[
+                    {"stat":"hit", "scaling-stat":"per", "scale": 0.25},
+                    {"stat":"dodge", "scaling-stat": "dex", "scale":0.25}
+                ]            
+            }
+        ],
+        "onhit_buffs": [
+            {
+                "id":"W3_buff_wolf_hit",
+                "name":"늑대의 간격",
+                "description":"공격이 닿는 거리를 가늠하고, 동시에 상대의 공격이 닿지 않을만큼만 간격을 잡습니다.\n회피가 민첩의 25%만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 4}],
+                "buff_duration":3,
+                "melee_allowed":true,
+                "flat_bonuses":[
+                    {"stat":"dodge", "scaling-stat":"dex", "scale":0.25}
+                ]
+            }
+        ],
+        "oncrit_buffs": [
+            {
+                "id":"W3_buff_wolf_crit",
+                "name":"피를 쫓는 주둥이",
+                "description":"한 번 물은 급소는 놓지 않는 늑대처럼.\n회피 기회+1. 방어 관통이 힘의 100% 만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 4}],
+                "buff_duration": 2,
+                "melee_allowed":true,
+                "bonus_dodges": 1,
+                "flat_bonuses":[
+                    {"stat":"arpen","type":"cut","scaling-stat":"str","scale":1.0},
+                    {"stat":"arpen","type":"bash","scaling-stat":"str","scale":1.0},
+                    {"stat":"arpen","type":"stab","scaling-stat":"str","scale":1.0}
+                ]
+            }
+        ],
+        "onkill_buffs": [
+            {
+                "id":"W3_buff_wolf_kill",
+                "name":"멈추지 않는 사냥",
+                "description":"사냥은 이걸로 끝나지 않습니다. 또다른 사냥감을 뒤쫓아야 합니다.\n3스택. 1스택당:\n행동 코스트 -5. 회피가 민첩의 10% 만큼 상승. 이동속도가 민첩의 100%만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 5}],
+                "buff_duration": 10,
+                "melee_allowed":true,
+                "max_stacks":3,
+                "flat_bonuses":[
+                    {"stat":"movecost", "scale": -5.0},
+                    {"stat":"dodge", "scaling-stat":"dex", "scale": 0.1},
+                    {"stat":"speed", "scaling-stat":"dex" ,"scale": 1.0}
+                ]
+            }
+        ],
+        "ondodge_buffs": [
+            {
+                "id":"W3_buff_wolf_dodge",
+                "name":"비웃는 그림자",
+                "description":"농락당한 사냥감의 빈틈을 포착했습니다.\n명중 +2. 방어 관통이 힘의 60% 만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 5}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "flat_bonuses":[
+                    {"stat":"hit", "scale": 2.0},
+                    {"stat":"arpen", "type":"cut", "scaling-stat":"str","scale": 0.5},
+                    {"stat":"arpen", "type":"bash", "scaling-stat":"str","scale": 0.6},
+                    {"stat":"arpen", "type":"stab", "scaling-stat":"str","scale": 0.6}
+                ]
+
+            }
+        ],
+        "techniques":["W3_tec_struggle", "W3_tec_wolf_crit1", "W3_tec_wolf_crit2", "W3_tec_wolf_dgc"],
+        "weapon_category": ["KNIVES", "SHORT_SWORDS", "1H_SWORDS", "HAND_AXES", "1H_AXES"]
+
+    },
+    {
+        "type": "martial_art",
+        "id": "W3_MA_bear",
+        "name": "곰의 발톱",
+        "description": "이 무술은 곰의 움직임을 본따 고안되었습니다. 얼핏 미련해보일 정도로, 참고 견디면서 반격의 순간을 기다립니다. 당신 손에 쥔 그것은 곰의 발톱이며, 혹독한 북풍이 당신의 복수를 도울 것입니다.",
+        "initiate": ["신중에 신중을 기하여, 최적의 때를 가늠합니다.", "%s(이)가 신중하게 무기를 겨눕니다."],
+        "learn_difficulty": 10,
+        "primary_skill":"cutting",
+        "strictly_melee":true,
+        "static_buffs": [
+            {
+                "id":"W3_buff_bear_static",
+                "name":"곰의 신중함",
+                "description":"경거망동하지 않고 신중히 목표를 정합니다.\n명중이 힘의 17%만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 2}],
+                "melee_allowed": true,
+                "bonus_blocks": 1,
+                "flat_bonuses":[
+                    {"stat":"hit", "scaling-stat":"str", "scale":0.17}
+                ]
+            }
+        ],
+        "onmiss_buffs":[
+            {
+                "id":"W3_buff_bear_miss",
+                "name":"의외의 민첩성",
+                "description":"둔하기만 하지 않습니다! 공격이 빗나갔음에도 다음 방어를 준비합니다.\n방어 기회+1",
+                "skill_requirements":[{"name":"melee", "level": 3}],
+                "buff_duration": 1,
+                "melee_allowed": true,
+                "bonus_blocks": 1
+            }
+        ],
+        "onpause_buffs":[
+            {
+                "id":"W3_buff_bear_pause",
+                "name":"맴도는 북풍",
+                "description":"가만히 멈춰서서 방어를 굳힙니다.\n방어 기회+1, 방어 시의 피해 감소가 힘의 80%만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 3}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "bonus_blocks": 1,
+                "flat_bonuses":[
+                    {"stat":"block","scaling-stat":"str","scale": 0.8}
+                ]
+            }
+        ],
+        "onblock_buffs": [
+            {
+                "id":"W3_buff_bear_block",
+                "name":"비축된 야성",
+                "description":"공격을 막아내며 서서히, 약점을 포착하는 예리한 감각이 깨어납니다.\n4스택. 1스택당:\n방어 관통이 힘의 40% 만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 4}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "max_stacks":4,
+                "flat_bonuses":[
+                    {"stat":"arpen","type":"cut","scaling-stat":"str","scale": 0.4},
+                    {"stat":"arpen","type":"bash","scaling-stat":"str","scale": 0.4},
+                    {"stat":"arpen","type":"stab","scaling-stat":"str","scale": 0.4}
+                ]
+            }
+        ],
+        "ongethit_buffs": [
+            {
+                "id":"W3_buff_bear_gethit",
+                "name":"억눌린 분노",
+                "description":"감히 어줍잖게 공격해온 놈들에게 본때를 보여줄 때가 왔습니다.\n3스택. 1스택당:\n피해량 5% 상승. 방어관통이 힘의 30%만큼 상승.",
+                "skill_requirements":[{"name":"melee", "level": 5}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "max_stacks":3,
+                "flat_bonuses":[
+                    {"stat":"arpen","type":"cut","scaling-stat":"str","scale": 0.3},
+                    {"stat":"arpen","type":"bash","scaling-stat":"str","scale": 0.3},
+                    {"stat":"arpen","type":"stab","scaling-stat":"str","scale": 0.3}
+                ],
+                "mult_bonuses":[
+                    {"stat":"damage","type":"cut","scale": 1.05},
+                    {"stat":"damage","type":"bash","scale": 1.05},
+                    {"stat":"damage","type":"stab","scale": 1.05}
+                ]
+            }
+        ],
+        "techniques":[
+            "W3_tec_struggle", 
+            "W3_tec_bear_feint",
+            "W3_tec_bear_crit", 
+            "W3_tec_bear_slash", 
+            "W3_tec_bear_revenge"
+        ],
+        "weapon_category": ["2H_AXES","HOOKED_POLES","GLAIVES"]
+    },
+    {
+        "type": "martial_art",
+        "id": "W3_MA_goat",
+        "name": "산양의 뿔",
+        "description": "이 무술은 산양의 움직임을 본따 고안되었습니다. 절벽을 타고 들판을 질주하는 자유로움과, 늠름한 뿔을 앞세워 들이받는 용맹함이 담겨 있습니다. 당신 손에 쥔 그것은 산양의 뿔이며, 저들의 진형을 무너뜨리고 벼랑 끝으로 몰아갈 것입니다.",
+        "initiate": ["창을 꼬나쥐고 벽과 지면을 찰 준비를 합니다.", "%s(이)가 벽과 지면을 곁눈질로 체크합니다."],
+        "learn_difficulty": 10,
+        "primary_skill":"stabbing",
+        "strictly_melee":true,
+        "static_buffs": [
+            {
+                "id":"W3_buff_goat_static",
+                "name":"벽 뛰기",
+                "description":"벽을 차고 뛰어 현란한 회피술을 펼칩니다.\n회피 기회 +1, 회피 +2.0",
+                "skill_requirements":[{"name":"melee", "level":3}],
+                "melee_allowed": true,
+                "wall_adjacent":true,
+                "bonus_dodges":1,
+                "flat_bonuses":[
+                    {"stat":"dodge", "scale":2.0}
+                ]
+            }
+        ],
+        "onmove_buffs":[
+            {
+                "id":"W3_buff_goat_move1",
+                "name":"산양의 질주",
+                "description":"분노한 산양처럼 질주하여 가속을 얻습니다.\n6스택. 1스택당:\n이동속도 5 증가. 민첩의 20%만큼 방어 관통. 찌르기 피해는 민첩의 30% 만큼 방어 관통. 찌르기 피해 4% 증가",
+                "skill_requirements":[{"name":"melee", "level":3}],
+                "buff_duration": 2,
+                "max_stacks": 6,
+                "melee_allowed": true,
+                "flat_bonuses":[
+                    {"stat":"speed", "scale": 5.0},
+                    {"stat":"arpen","type":"cut","scaling-stat":"dex","scale": 0.2},
+                    {"stat":"arpen","type":"bash","scaling-stat":"dex","scale": 0.2},
+                    {"stat":"arpen","type":"stab","scaling-stat":"dex","scale": 0.3}
+                ],
+                "mult_bonuses":[
+                    {"stat":"damage", "type":"stab", "scale":1.04}
+                ]
+            },
+            {
+                "id":"W3_buff_goat_move2",
+                "name":"벽타기 질주",
+                "description":"벽조차도 차고 달려 더욱 가속합니다.\n3스택. 1스택당:\n민첩의 20%만큼 방어 관통. 찌르기 피해는 민첩의 40% 만큼 방어 관통. 행동 코스트 9% 감소.",
+                "skill_requirements":[{"name":"melee", "level":4}],
+                "buff_duration": 2,
+                "max_stacks": 3,
+                "wall_adjacent": true,
+                "melee_allowed": true,
+                "flat_bonuses":[
+                    {"stat":"arpen","type":"cut","scaling-stat":"dex","scale": 0.2},
+                    {"stat":"arpen","type":"bash","scaling-stat":"dex","scale": 0.2},
+                    {"stat":"arpen","type":"stab","scaling-stat":"dex","scale": 0.4}
+                ],
+                "mult_bonuses":[
+                    {"stat":"movecost", "scale": 0.91}
+                ]
+            }
+        ],
+        "onpause_buffs":[
+            {
+                "id":"W3_buff_goat_pause",
+                "name":"산양의 노려보기",
+                "description":"멈춰서서 들이받을 거리를 잽니다.\n명중 +2",
+                "skill_requirements":[{"name":"melee", "level": 2}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "flat_bonuses":[{"stat":"hit", "scale": 2.0}]
+            }
+        ],
+        "techniques":["W3_tec_struggle" ,"W3_tec_goat_butt", "W3_tec_goat_jump", "W3_tec_goat_wreck", "W3_tec_goat_dance"],
+        "weapon_category": ["SPEARS", "PIKES"]
+    },
+    {
+        "type": "martial_art",
+        "id": "W3_MA_boar",
+        "name": "멧돼지의 엄니",
+        "description": "이 무술은 멧돼지의 움직임을 본따 고안되었습니다. 무술이라기엔 너무 거칠지만, 그 대범한 동작은 자잘한 상처에 연연치 않고 상대의 목숨을 취하기 위함입니다. 당신 손에 쥔 그것은 멧돼지의 엄니이며, 넘어설 수 없는 태산으로 거듭날 것입니다.",
+        "initiate": ["숨을 거칠게 몰아쉬며, 위험으로 뛰어들 자세를 취합니다.", "%s(이)가 눈을 부라리며 뛰어들려 합니다."],
+        "learn_difficulty": 10,
+        "primary_skill":"bashing",
+        "strictly_melee":true,
+        "static_buffs": [
+            {
+                "id":"W3_buff_boar_static",
+                "name":"돼싸움",
+                "description":"방어니 회피니 하는 것들은 전부 거추장스러운 것들입니다. 오로지 공격만이 최선의 방어입니다.\n물리 피해 60% 상승. 방어 시 피해 경감 50% 감소. 회피 20% 감소.",
+                "skill_requirements":[{"name":"melee", "level": 1}],
+                "melee_allowed": true,
+                "mult_bonuses":[
+                    {"stat":"damage", "type":"cut", "scale": 1.6},
+                    {"stat":"damage", "type":"bash", "scale": 1.6},
+                    {"stat":"damage", "type":"stab", "scale": 1.6},
+                    {"stat":"block","scale":0.5},
+                    {"stat":"dodge", "scale":0.8}
+                ]
+            }
+        ],
+        "onattack_buffs": [
+            {
+                "id":"W3_buff_boar_att",
+                "name":"저돌",
+                "description":"난폭한 공격을 거듭하며 깨진 흑요석처럼 더욱 예리하게, 더욱 과감하게 공격합니다.\n3스택. 1스택당:\n명중 +1, 방어 관통이 힘의 30%만큼 상승. 회피율 20% 감소. 행동 코스트 10% 감소.",
+                "skill_requirements":[{"name":"melee", "level": 2}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "max_stacks":3,
+                "flat_bonuses":[
+                    {"stat":"hit", "scale": 1.0},
+                    {"stat":"arpen","type":"cut","scaling-stat":"str","scale": 0.3},
+                    {"stat":"arpen","type":"bash","scaling-stat":"str","scale": 0.3},
+                    {"stat":"arpen","type":"stab","scaling-stat":"str","scale": 0.3}
+                ],
+                "mult_bonuses":[
+                    {"stat":"dodge", "scale": 0.8},
+                    {"stat":"movecost", "scale":0.9}
+                ]
+            }
+        ],
+        "onmove_buffs":[
+            {
+                "id":"W3_buff_boar_move",
+                "name":"맹진",
+                "description":"뵈는 게 없기라도 한 듯, 위험을 향해 과감하게 달려듭니다.\n4스택. 1스택당:\n명중 -0.25, 이동속도 10% 상승. 피해량 6% 상승.",
+                "skill_requirements":[{"name":"melee", "level": 1}],
+                "buff_duration": 1,
+                "melee_allowed": true,
+                "max_stacks": 4,
+                "flat_bonuses":[{"stat":"hit", "scale":-0.25}],
+                "mult_bonuses":[
+                    {"stat":"speed", "scale":1.1},
+                    {"stat":"damage", "type":"cut", "scale": 1.06},
+                    {"stat":"damage", "type":"bash", "scale": 1.06},
+                    {"stat":"damage", "type":"stab", "scale": 1.06}
+                ]
+            }
+        ],
+        "ongethit_buffs": [
+            {
+                "id":"W3_buff_boar_gethit",
+                "name":"악바리",
+                "description":"공격받을수록 더욱 과감하게, 더욱 깊게 파고들어야 합니다.\n5스택. 1스택당:\n방어 관통이 힘의 30%만큼 상승. 방어 1.4씩 감소.",
+                "skill_requirements":[{"name":"melee", "level": 4}],
+                "buff_duration": 3,
+                "melee_allowed": true,
+                "max_stacks":5,
+                "flat_bonuses":[
+                    {"stat":"arpen","type":"cut","scaling-stat":"str","scale": 0.3},
+                    {"stat":"arpen","type":"bash","scaling-stat":"str","scale": 0.3},
+                    {"stat":"arpen","type":"stab","scaling-stat":"str","scale": 0.3},
+                    {"stat":"armor","type":"cut","scale": -1.4},
+                    {"stat":"armor","type":"bash","scale": -1.4},
+                    {"stat":"armor","type":"stab","scale": -1.4}
+                ]
+            }
+        ],
+        "techniques":["W3_tec_struggle","W3_tec_boar_sweep", "W3_tec_boar_slide"],
+        "weapon_category": ["SAPS", "CLUBS", "MACES"]
+    },
+    {
+        "type": "martial_art",
+        "id": "W3_MA_donkey",
+        "name": "나귀의 발굽",
+        "description": "이 무술은 나귀의 움직임을 본따 고안되었습니다. 때를 기다리는 인내심과 움직여야 할 때를 아는 판단력을 함께 겸비하였습니다. 당신 손에 쥔 그것은 나귀의 발굽이며, 누구도 당신의 대담한 횡보를 막아낼 수 없을 것입니다.",
+        "initiate": ["마음을 대담히 먹고 무기를 반 바퀴 휘둘러 겨눕니다.", "%s(이)가 그 무기를 반 바퀴 휘둘러 겨눕니다."],
+        "learn_difficulty": 10,
+        "primary_skill":"bashing",
+        "strictly_melee":true,
+        "static_buffs": [
+            {
+                "id":"W3_buff_donkey_static",
+                "name":"나귀의 잔꾀",
+                "description":"어떤 일이든, 심지어는 싸움조차도 요령이 있습니다.\n행동 코스트가 지능의 120%만큼 감소. 물리방어가 지능의 50%만큼 증가.",
+                "skill_requirements":[{"name":"melee", "level": 2}],
+                "melee_allowed": true,
+                "flat_bonuses":[
+                    {"stat":"movecost", "scaling-stat":"int", "scale":-1.2},
+                    {"stat":"armor", "type":"bash", "scaling-stat":"int", "scale":0.5},
+                    {"stat":"armor", "type":"cut", "scaling-stat":"int", "scale":0.5},
+                    {"stat":"armor", "type":"stab", "scaling-stat":"int", "scale":0.5}
+                ]
+            }
+        ],
+        "onhit_buffs": [
+            {
+                "id":"W3_buff_donkey_hit",
+                "name":"익숙한 외길",
+                "description":"공격이 계속 명중할수록 점점 능숙하게 공격할 수 있습니다.\n5스택. 1스택당:\n명중 +0.4, 방어 관통이 힘의 15% 만큼 증가. 타격 관통은 30% 만큼 증가.",
+                "skill_requirements":[{"name":"melee", "level":3}],
+                "buff_duration":2,
+                "max_stacks":5,
+                "melee_allowed": true,
+                "flat_bonuses":[
+                    {"stat":"hit", "scale":0.4},
+                    {"stat":"arpen", "type":"cut", "scaling-stat":"str","scale": 0.15},
+                    {"stat":"arpen", "type":"bash", "scaling-stat":"str","scale": 0.3},
+                    {"stat":"arpen", "type":"stab", "scaling-stat":"str","scale": 0.15}
+                ]
+            }
+        ],
+        "onpause_buffs":[
+            {
+                "id":"W3_buff_donkey_pause",
+                "name":"요지부동",
+                "description":"뭐가 오든 간에 눈 하나 깜짝 안합니다. 덤빌테면 덤벼보라죠.\n10스택. 1스택당:\n물리 피해가 힘의 10%만큼, 물리 방어가 지능의 30%만큼 증가.",
+                "skill_requirements":[{"name":"melee", "level": 4}],
+                "buff_duration": 3,
+                "max_stacks":10,
+                "melee_allowed": true,
+                "flat_bonuses":[
+                    {"stat":"damage", "type":"cut", "scaling-stat":"str", "scale": 0.1},
+                    {"stat":"damage", "type":"bash", "scaling-stat":"str", "scale": 0.1},
+                    {"stat":"damage", "type":"stab", "scaling-stat":"str", "scale": 0.1},
+                    {"stat":"armor","type":"cut","scaling-stat":"int","scale": 0.2},
+                    {"stat":"armor","type":"bash","scaling-stat":"int","scale": 0.2},
+                    {"stat":"armor","type":"stab","scaling-stat":"int","scale": 0.2}
+                ]
+            }
+        ],
+        "ongethit_buffs": [
+            {
+                "id":"W3_buff_donkey_gethit",
+                "name":"나귀의 억척",
+                "description":"방금 뭐가 쳤나요? 별로 아프지도 않군요!\n6스택. 1스택당:\n물리 방어, 방어 시 피해감소가 힘의 15%만큼 증가.",
+                "skill_requirements":[{"name":"melee", "level": 3}],
+                "buff_duration": 4,
+                "max_stacks":6,
+                "melee_allowed": true,
+                "flat_bonuses":[
+                    {"stat":"armor","type":"cut","scaling-stat":"str","scale": 0.15},
+                    {"stat":"armor","type":"bash","scaling-stat":"str","scale": 0.15},
+                    {"stat":"armor","type":"stab","scaling-stat":"str","scale": 0.15},
+                    {"stat":"block","scaling-stat":"str","scale": 0.15}
+                ]
+            }
+        ],
+        "techniques":["W3_tec_struggle", "W3_tec_donkey_rapid","W3_tec_donkey_sweep","W3_tec_donkey_dgc","W3_tec_donkey_stomp"],
+        "weapon_category": ["FLAILS", "1H_HAMMERS"]
+    },
+    {
+        "type": "martial_art",
+        "id": "W3_MA_porcupine",
+        "name": "호저의 가시",
+        "description": "이 무술은 호저의 움직임을 본따 고안되었습니다. 가시를 앞세워 적의 공격에 대항하고, 덤벼온 상대에겐 최악의 상처를 남깁니다. 당신 손에 쥔 그것은 호저의 가시이며, 덤벼오는 게 누구든 가장 지독한 형태로 끝을 맞이할 것입니다.",
+        "initiate": ["덤벼오는 누구든 지독하게 후벼파줄 기세로 무기를 잡습니다.", "%s(이)가 독기를 품은 눈으로 무기를 잡습니다."],
+        "learn_difficulty": 10,
+        "primary_skill":"stabbing",
+        "strictly_melee":true,
+        "static_buffs": [
+            {
+                "id":"W3_buff_porcu_static",
+                "name":"가시 요새",
+                "description":"가시털을 세운 호저처럼, 회피를 포기하고 공격을 막아내기에 전념합니다.\n방어 기회 +2, 회피 -4",
+                "skill_requirements":[{"name":"melee", "level": 3}],
+                "melee_allowed": true,
+                "bonus_blocks":2,
+                "flat_bonuses":[{"stat":"dodge", "scale":-4.0}]
+            }
+        ],
+        "onpause_buffs":[
+            {
+                "id":"W3_buff_porcu_pause",
+                "name":"가시 세우기",
+                "description":"가장 날카로운 가시를 준비합니다. 제자리에서 자세를 더욱 단단히 굳힙니다.\n방어시 피해 경감이 민첩의 30%만큼 증가. 방어 관통이 민첩의 50%만큼 증가.",
+                "skill_requirements":[{"name":"melee", "level": 3}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "bonus_blocks": 1,
+                "flat_bonuses":[
+                    {"stat":"block", "scaling-stat":"dex", "scale": 0.3},
+                    {"stat":"arpen", "type":"cut", "scaling-stat":"dex", "scale": 0.5},
+                    {"stat":"arpen", "type":"bash", "scaling-stat":"dex", "scale": 0.5},
+                    {"stat":"arpen", "type":"stab", "scaling-stat":"dex", "scale": 0.5}
+                ]
+            }
+        ],
+        "onblock_buffs": [
+            {
+                "id":"W3_buff_porcu_block",
+                "name":"미늘박힌 상처",
+                "description":"공격을 막아내어 가시를 쑤셔박아줄 상대의 약점이 훤히 보입니다.\n2스택. 1스택당:\n명중이 힘의 15%만큼 증가.",
+                "skill_requirements":[{"name":"melee", "level": 4}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "max_stacks":2,
+                "flat_bonuses":[
+                    {"stat":"hit","scaling-stat":"str", "scale":0.15}
+                ]
+            }
+        ],
+        "ongethit_buffs": [
+            {
+                "id":"W3_buff_porcu_gethit",
+                "name":"산미치광이",
+                "description":"어줍잖은 공격 따위 호저의 분노만 돋굴 뿐입니다.\n2스택. 1스택당:\n물리 피해 증가. 방어 관통이 힘의 50%만큼 증가. 회피 -1",
+                "skill_requirements":[{"name":"melee", "level": 5}],
+                "buff_duration": 2,
+                "melee_allowed": true,
+                "max_stacks":2,
+                "mult_bonuses":[
+                    {"stat":"damage", "type":"cut", "scale": 1.05},
+                    {"stat":"damage", "type":"bash", "scale": 1.05},
+                    {"stat":"damage", "type":"stab", "scale": 1.05}
+                ],
+                "flat_bonuses":[
+                    {"stat":"arpen", "type":"cut", "scaling-stat":"str", "scale":0.5},
+                    {"stat":"arpen", "type":"bash", "scaling-stat":"str", "scale":0.5},
+                    {"stat":"arpen", "type":"stab", "scaling-stat":"str", "scale":0.5},
+                    {"stat":"dodge", "scale": -1.0}
+                ]
+            }
+        ],
+        "techniques":["W3_tec_struggle","W3_tec_porcu_blc1","W3_tec_porcu_blc2", "W3_tec_porcu_bite", "W3_tec_porcu_pierce"],
+        "weapon_category": ["1H_SWORDS", "DUELING_SWORDS"]
+    }
+]
