@@ -14,8 +14,8 @@
                     {"id":"overlay_wielded_W3_stone_mirror", "fg":1, "rotates":false},
                     {"id":"W3_stone_mirror_dead", "fg":2, "rotates":false},
                     {"id":"overlay_wielded_W3_stone_mirror_dead", "fg":3, "rotates":false},
-                    {"id":"W3_bronze_mirror", "fg":0, "rotates":false},
-                    {"id":"overlay_wielded_W3_bronze_mirror", "fg":1, "rotates":false}
+                    {"id":"W3_bronze_mirror", "fg":4, "rotates":false},
+                    {"id":"overlay_wielded_W3_bronze_mirror", "fg":5, "rotates":false}
                 ]
             },
             {
