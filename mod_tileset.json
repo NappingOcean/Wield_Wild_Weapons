@@ -15,7 +15,9 @@
                     {"id":"W3_stone_mirror_dead", "fg":2, "rotates":false},
                     {"id":"overlay_wielded_W3_stone_mirror_dead", "fg":3, "rotates":false},
                     {"id":"W3_bronze_mirror", "fg":4, "rotates":false},
-                    {"id":"overlay_wielded_W3_bronze_mirror", "fg":5, "rotates":false}
+                    {"id":"overlay_wielded_W3_bronze_mirror", "fg":5, "rotates":false},
+                    {"id":"W3_bronze_mirror_old", "fg":6, "rotates":false},
+                    {"id":"overlay_wielded_W3_bronze_mirror_old", "fg":7, "rotates":false}
                 ]
             },
             {
@@ -25,12 +27,12 @@
                 "sprite_offset_x": -16,
                 "sprite_offset_y": -32,
                 "tiles":[
-                    {"id":"W3_statue_beast1", "fg":6, "rotates":false},
-                    {"id":"W3_statue_beast2", "fg":7, "rotates":false},
-                    {"id":"W3_statue_beast3", "fg":8, "rotates":false},
-                    {"id":"W3_statue_beast4", "fg":9, "rotates":false},
-                    {"id":"W3_statue_beast5", "fg":10, "rotates":false},
-                    {"id":"W3_statue_beast6", "fg":11, "rotates":false}
+                    {"id":"W3_statue_beast1", "fg":8, "rotates":false},
+                    {"id":"W3_statue_beast2", "fg":9, "rotates":false},
+                    {"id":"W3_statue_beast3", "fg":10, "rotates":false},
+                    {"id":"W3_statue_beast4", "fg":11, "rotates":false},
+                    {"id":"W3_statue_beast5", "fg":12, "rotates":false},
+                    {"id":"W3_statue_beast6", "fg":13, "rotates":false}
                 ]
             }
         ]

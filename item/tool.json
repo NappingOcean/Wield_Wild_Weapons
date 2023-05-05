@@ -21,7 +21,8 @@
             "level": 0,
             "no_fail":true
         },
-        "relic_data":{"recharge_scheme":[{"type":"solar", "interval":"30 m", "rate":1, "message":"햇빛을 받은 거울에 광택이 감돈다!"}]}
+        "relic_data":{"recharge_scheme":[{"type":"solar", "interval":"30 m", "rate":1, "message":"햇빛을 받은 거울에 광택이 감돈다!"}]},
+        "flags":["NO_REPAIR"]
     },
     {
         "type":"TOOL",
@@ -45,13 +46,39 @@
             "level": 0,
             "no_fail":true
         },
-        "relic_data":{"recharge_scheme":[{"type":"solar", "interval":"1 h", "rate":1, "message":"햇빛을 받은 거울에 광택이 감돈다!"}]}
+        "relic_data":{"recharge_scheme":[{"type":"solar", "interval":"1 h", "rate":1, "message":"햇빛을 받은 거울에 광택이 감돈다!"}]},
+        "flags":["NO_REPAIR"]
+    },
+    {
+        "type":"TOOL",
+        "id":"W3_bronze_mirror_old",
+        "name":{"str_sp":"웨어 비스트의 고대 거울"},
+        "description":"특이한 양식의 청동 거울입니다. 청동이 세월을 이기지 못하고 낡고 녹슬어서 새파래졌습니다만, 그 광택은 어찌된 일인지 아직까지도 빛나고 있습니다.\n\n석상을 흉내낸 가짜를 찾아라.",
+        "material":"bronze",
+        "symbol":"q",
+        "color": "cyan",
+        "weight":"180 g",
+        "volume":"50 ml",
+        "to_hit": -2,
+        "price": 250,
+        "price_postapoc": 10,
+        "initial_charges": 4,
+        "max_charges": 4,
+        "charges_per_use": 1,
+        "use_action":{
+            "type":"cast_spell",
+            "spell_id":"W3_spell_statue_reflector",
+            "level": 0,
+            "no_fail":true
+        },
+        "relic_data":{"recharge_scheme":[{"type":"solar", "interval":"90 m", "rate":1, "message":"햇빛을 받은 거울에 광택이 감돈다!"}]},
+        "flags":["NO_REPAIR"]
     },
     {
         "//":"Warning! Obsoleted!",
         "type":"TOOL",
         "id":"W3_stone_mirror_dead",
-        "name":{"str_sp":"빛을 잃은 돌거울"},
+        "name":{"str_sp":"빛을 잃은 돌 거울"},
         "description":"당신이 아는 한에서, 이 거울은 어디서도 본 적 없는 양식의 물건입니다. 마법이 풀렸는지 이젠 빛을 반사하지 않습니다. 그럼에도 뒷면의 낙서는 아직도 남아있습니다.\n\n석상을 흉내낸 가짜를 찾아라.",
         "material":"stone",
         "symbol":"q",
@@ -60,7 +87,8 @@
         "volume":"50 ml",
         "to_hit": -2,
         "price": 250,
-        "price_postapoc": 10
+        "price_postapoc": 10,
+        "flags":["NO_REPAIR"]
     },
     {
         "type":"TOOL",
@@ -75,7 +103,8 @@
         "volume":"8 ml",
         "to_hit":-5,
         "price":6000,
-        "price_postapoc":100
+        "price_postapoc":100,
+        "flags":["NO_REPAIR"]
     },
     {
         "type":"TOOL",

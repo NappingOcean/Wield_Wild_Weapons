@@ -2,26 +2,26 @@
     {
         "type":"item_group",
         "id":"trash",
-        "items":[["W3_stone_mirror", 2]]
+        "items":[["W3_stone_mirror", 2],["W3_bronze_mirror_old",3]]
     },
     {
         "type":"item_group",
         "id":"museum_misc",
-        "items":[["W3_stone_mirror", 20]]
+        "items":[["W3_stone_mirror", 15],["W3_bronze_mirror_old", 30]]
     },
     {
         "type":"item_group",
         "id":"pawn",
-        "items":[["W3_stone_mirror", 10]]
+        "items":[["W3_stone_mirror", 8],["W3_bronze_mirror_old",16]]
     },
     {
         "type":"item_group",
         "id":"antique",
-        "items":[["W3_stone_mirror", 15]]
+        "items":[["W3_stone_mirror", 12],["W3_bronze_mirror_old",24]]
     },
     {
         "type":"item_group",
         "id":"art",
-        "items":[["W3_stone_mirror", 15]]
+        "items":[["W3_stone_mirror", 12],["W3_bronze_mirror_old",24]]
     }
 ]
