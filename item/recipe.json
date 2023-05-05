@@ -11,8 +11,6 @@
         "using": [ [ "forging_standard", 1 ], [ "bronzesmithing_tools", 1 ]],
         "qualities":[{"id":"CHISEL", "level":3},{"id":"FILE", "level":2}],
         "tools":[[["angle_grinder",100]],[["swage",-1]]],
-        "components": [
-            ["scrap_bronze",1]
-        ]
+        "components": [[["scrap_bronze",1]]]
     }
 ]
