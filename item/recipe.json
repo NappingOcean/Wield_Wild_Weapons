@@ -1,0 +1,18 @@
+[
+    {
+        "result":"W3_bronze_mirror",
+        "type":"recipe",
+        "category":"CC_OTHER",
+        "subcategory":"CSC_OHTER_TOOLS",
+        "skill_used": "fabrication",
+        "difficulty": 7,
+        "time": "60 m",
+        "book_learn": [ [ "jewelry_book", 5 ] ],
+        "using": [ [ "forging_standard", 1 ], [ "bronzesmithing_tools", 1 ]],
+        "qualities":[{"id":"CHISEL", "level":3},{"id":"FILE", "level":2}],
+        "tools":[[["angle_grinder",100]],[["swage",-1]]],
+        "components": [
+            ["scrap_bronze",1]
+        ]
+    }
+]

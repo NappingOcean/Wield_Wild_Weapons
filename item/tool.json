@@ -2,7 +2,7 @@
     {
         "type":"TOOL",
         "id":"W3_stone_mirror",
-        "name":{"str_sp":"웨어 비스트의 돌거울"},
+        "name":{"str_sp":"웨어 비스트의 돌 거울"},
         "description":"당신이 아는 한에서, 이 거울은 어디서도 본 적 없는 양식의 물건입니다. 비춰질 리 없는 재질이 주위를 비추고 있습니다. 일종의 마법적인 처리가 가해진 듯 합니다.\n\n석상을 흉내낸 가짜를 찾아라.",
         "material":"stone",
         "symbol":"q",
@@ -21,10 +21,34 @@
             "level": 0,
             "no_fail":true
         },
-        "revert_to":"W3_stone_mirror_dead",
-        "revert_msg":"거울이 광택을 잃고 표면이 거칠어졌습니다."
+        "relic_data":{"recharge_scheme":[{"type":"solar", "interval":"30 m", "rate":1, "message":"햇빛을 받은 거울에 광택이 감돈다!"}]}
     },
     {
+        "type":"TOOL",
+        "id":"W3_bronze_mirror",
+        "name":{"str_sp":"웨어 비스트의 청동 거울"},
+        "description":"특이한 양식의 청동 거울입니다. 책에 나온 삽화를 그대로 빼다박은 듯이 만들어, 삽화에 있는 이상한 쐐기모양 각인도 함께 박아넣었습니다. 삽화와 다른 점이라면 이건 녹슬기 전의 연갈색을 하고 있단 점입니다.\n\n석상을 흉내낸 가짜를 찾아라.",
+        "material":"bronze",
+        "symbol":"q",
+        "color": "cyan",
+        "weight":"180 g",
+        "volume":"50 ml",
+        "to_hit": -2,
+        "price": 250,
+        "price_postapoc": 10,
+        "initial_charges": 6,
+        "max_charges": 6,
+        "charges_per_use": 1,
+        "use_action":{
+            "type":"cast_spell",
+            "spell_id":"W3_spell_statue_reflector",
+            "level": 0,
+            "no_fail":true
+        },
+        "relic_data":{"recharge_scheme":[{"type":"solar", "interval":"1 h", "rate":1, "message":"햇빛을 받은 거울에 광택이 감돈다!"}]}
+    },
+    {
+        "//":"Warning! Obsoleted!",
         "type":"TOOL",
         "id":"W3_stone_mirror_dead",
         "name":{"str_sp":"빛을 잃은 돌거울"},
