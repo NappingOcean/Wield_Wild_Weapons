@@ -92,7 +92,7 @@
         "type": "technique",
         "id":"W3_tec_bear_slash",
         "name":"북풍 가르기",
-        "messages":["","<npcname>"],
+        "messages":["기다림 끝에 %s(을)를 후려쳤다!","<npcname>(이)가 기다린 끝에 %s(을)를 후려쳤다!"],
         "skill_requirements":[{"name":"melee","level":4}],
         "melee_allowed": true,
         "req_buffs":["W3_buff_bear_pause"],
