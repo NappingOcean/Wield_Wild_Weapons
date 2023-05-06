@@ -1,0 +1,1032 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WIELD_WILD_WEAPONS\n"
+"POT-Creation-Date: 2023-05-06 17:11+0900\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\furniture.json
+msgid "이 동상은 아무래도 평범한 석상인 것 같다."
+msgstr ""
+
+#: .\furniture.json
+msgid "늑대 석상"
+msgstr ""
+
+#. ~ Description for 늑대 석상
+#: .\furniture.json
+msgid ""
+"당신을 노란 눈으로 노려보는 늑대 석상입니다.\n"
+"아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다."
+msgstr ""
+
+#: .\furniture.json
+msgid "쿠르르르!"
+msgstr ""
+
+#: .\furniture.json
+msgid "툭."
+msgstr ""
+
+#: .\furniture.json
+msgid "곰 석상"
+msgstr ""
+
+#. ~ Description for 곰 석상
+#: .\furniture.json
+msgid ""
+"당신을 노란 눈으로 노려보는 곰 석상입니다.\n"
+"아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다."
+msgstr ""
+
+#: .\furniture.json
+msgid "산양 석상"
+msgstr ""
+
+#. ~ Description for 산양 석상
+#: .\furniture.json
+msgid ""
+"당신을 노란 눈으로 노려보는 산양 석상입니다.\n"
+"아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다."
+msgstr ""
+
+#: .\furniture.json
+msgid "멧돼지 석상"
+msgstr ""
+
+#. ~ Description for 멧돼지 석상
+#: .\furniture.json
+msgid ""
+"당신을 노란 눈으로 노려보는 멧돼지 석상입니다.\n"
+"아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다."
+msgstr ""
+
+#: .\furniture.json
+msgid "나귀 석상"
+msgstr ""
+
+#. ~ Description for 나귀 석상
+#: .\furniture.json
+msgid ""
+"당신을 노란 눈으로 노려보는 나귀 석상입니다.\n"
+"아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다."
+msgstr ""
+
+#: .\furniture.json
+msgid "호저 석상"
+msgstr ""
+
+#. ~ Description for 호저 석상
+#: .\furniture.json
+msgid ""
+"당신을 노란 눈으로 노려보는 호저 석상입니다.\n"
+"아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말이 울리는 듯 합니다."
+msgstr ""
+
+#: .\modinfo.json
+msgid "짐승의 무기술"
+msgstr ""
+
+#. ~ Description for 짐승의 무기술
+#: .\modinfo.json
+msgid "짐승의 자세에서 비롯된 새로운 무기술을 추가합니다. 이 무기술은 특정한 석상을 찾아서 그 비급을 얻을 수 있습니다."
+msgstr ""
+
+#: .\item\books.json
+msgid "이빨의 서"
+msgid_plural "이빨의 서"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '이빨의 서'}
+#: .\item\books.json
+msgid ""
+"\"늑대의 이빨\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 "
+"있습니다."
+msgstr ""
+
+#: .\item\books.json
+msgid "발톱의 서"
+msgid_plural "발톱의 서"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '발톱의 서'}
+#: .\item\books.json
+msgid ""
+"\"곰의 발톱\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다."
+msgstr ""
+
+#: .\item\books.json
+msgid "뿔의 서"
+msgid_plural "뿔의 서"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '뿔의 서'}
+#: .\item\books.json
+msgid ""
+"\"산양의 뿔\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 있습니다."
+msgstr ""
+
+#: .\item\books.json
+msgid "엄니의 서"
+msgid_plural "엄니의 서"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '엄니의 서'}
+#: .\item\books.json
+msgid ""
+"\"멧돼지의 엄니\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 "
+"있습니다."
+msgstr ""
+
+#: .\item\books.json
+msgid "발굽의 서"
+msgid_plural "발굽의 서"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '발굽의 서'}
+#: .\item\books.json
+msgid ""
+"\"나귀의 발굽\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 "
+"있습니다."
+msgstr ""
+
+#: .\item\books.json
+msgid "가시의 서"
+msgid_plural "가시의 서"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '가시의 서'}
+#: .\item\books.json
+msgid ""
+"\"호저의 가시\" 이라는 무술의 정보가 담긴 책입니다. 이 세상의 언어가 아닌 게 확실하지만, 친절하게도 삽화가 정성껏 그려져 "
+"있습니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "웨어 비스트의 돌 거울"
+msgid_plural "웨어 비스트의 돌 거울"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '웨어 비스트의 돌 거울'}
+#: .\item\tool.json
+msgid ""
+"당신이 아는 한에서, 이 거울은 어디서도 본 적 없는 양식의 물건입니다. 비춰질 리 없는 재질이 주위를 비추고 있습니다. 일종의 마법적인 처리가 가해진 듯 합니다.\n"
+"\n"
+"석상을 흉내낸 가짜를 찾아라."
+msgstr ""
+
+#. ~ Relic recharge message for TOOL '{'str_sp': '웨어 비스트의 돌 거울'}'
+#. ~ Relic recharge message for TOOL '{'str_sp': '웨어 비스트의 청동 거울'}'
+#. ~ Relic recharge message for TOOL '{'str_sp': '웨어 비스트의 고대 거울'}'
+#: .\item\tool.json
+msgid "햇빛을 받은 거울에 광택이 감돈다!"
+msgstr ""
+
+#: .\item\tool.json
+msgid "웨어 비스트의 청동 거울"
+msgid_plural "웨어 비스트의 청동 거울"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '웨어 비스트의 청동 거울'}
+#: .\item\tool.json
+msgid ""
+"특이한 양식의 청동 거울입니다. 책에 나온 삽화를 그대로 빼다박은 듯이 만들어, 삽화에 있는 이상한 쐐기모양 각인도 함께 박아넣었습니다. 삽화와 다른 점이라면 이건 녹슬기 전의 연갈색을 하고 있단 점입니다.\n"
+"\n"
+"석상을 흉내낸 가짜를 찾아라."
+msgstr ""
+
+#: .\item\tool.json
+msgid "웨어 비스트의 고대 거울"
+msgid_plural "웨어 비스트의 고대 거울"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '웨어 비스트의 고대 거울'}
+#: .\item\tool.json
+msgid ""
+"특이한 양식의 청동 거울입니다. 청동이 세월을 이기지 못하고 낡고 녹슬어서 새파래졌습니다만, 그 광택은 어찌된 일인지 아직까지도 빛나고 있습니다.\n"
+"\n"
+"석상을 흉내낸 가짜를 찾아라."
+msgstr ""
+
+#: .\item\tool.json
+msgid "빛을 잃은 돌 거울"
+msgid_plural "빛을 잃은 돌 거울"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '빛을 잃은 돌 거울'}
+#: .\item\tool.json
+msgid ""
+"당신이 아는 한에서, 이 거울은 어디서도 본 적 없는 양식의 물건입니다. 마법이 풀렸는지 이젠 빛을 반사하지 않습니다. 그럼에도 뒷면의 낙서는 아직도 남아있습니다.\n"
+"\n"
+"석상을 흉내낸 가짜를 찾아라."
+msgstr ""
+
+#: .\item\tool.json
+msgid "짐승의 세공된 혼"
+msgid_plural "짐승의 세공된 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '짐승의 세공된 혼'}
+#: .\item\tool.json
+msgid "가고일 비스트의 세공된 혼입니다. 바라봄으로서 그들의 힘과 기술을 얻을 수 있습니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "늑대의 세공된 혼"
+msgid_plural "늑대의 세공된 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action message for {'str_sp': '늑대의 세공된 혼'}.
+#. ~ Use action message for {'str_sp': '곰의 세공된 혼'}.
+#. ~ Use action message for {'str_sp': '산양의 세공된 혼'}.
+#. ~ Use action message for {'str_sp': '멧돼지의 세공된 혼'}.
+#. ~ Use action message for {'str_sp': '나귀의 세공된 혼'}.
+#. ~ Use action message for {'str_sp': '호저의 세공된 혼'}.
+#: .\item\tool.json
+msgid "당신은 세공된 혼을 자세히 들여다봅니다..."
+msgstr ""
+
+#. ~ Description for {'str_sp': '늑대의 세공된 혼'}
+#: .\item\tool.json
+msgid "늑대 모양의 석상을 부수고 나온 보석입니다. 석상의 부릅 뜬 눈빛이 아로새겨진 듯 합니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "늑대의 울부짖는 혼"
+msgid_plural "늑대의 울부짖는 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '늑대의 울부짖는 혼'}
+#. ~ Description for {'str_sp': '곰의 포효하는 혼'}
+#. ~ Description for {'str_sp': '산양의 솟구치는 혼'}
+#. ~ Description for {'str_sp': '멧돼지의 날뛰는 혼'}
+#. ~ Description for {'str_sp': '나귀의 박차는 혼'}
+#. ~ Description for {'str_sp': '호저의 덤벼드는 혼'}
+#: .\item\tool.json
+msgid "이 보석은 주문을 담은 물건입니다. 당신을 노려보는 듯 반짝이고 있습니다..."
+msgstr ""
+
+#: .\item\tool.json
+msgid "곰의 세공된 혼"
+msgid_plural "곰의 세공된 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '곰의 세공된 혼'}
+#: .\item\tool.json
+msgid "곰 모양의 석상을 부수고 나온 보석입니다. 석상의 부릅 뜬 눈빛이 아로새겨진 듯 합니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "곰의 포효하는 혼"
+msgid_plural "곰의 포효하는 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\item\tool.json
+msgid "산양의 세공된 혼"
+msgid_plural "산양의 세공된 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '산양의 세공된 혼'}
+#: .\item\tool.json
+msgid "산양 모양의 석상을 부수고 나온 보석입니다. 석상의 부릅 뜬 눈빛이 아로새겨진 듯 합니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "산양의 솟구치는 혼"
+msgid_plural "산양의 솟구치는 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\item\tool.json
+msgid "멧돼지의 세공된 혼"
+msgid_plural "멧돼지의 세공된 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '멧돼지의 세공된 혼'}
+#: .\item\tool.json
+msgid "멧돼지 모양의 석상을 부수고 나온 보석입니다. 석상의 부릅 뜬 눈빛이 아로새겨진 듯 합니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "멧돼지의 날뛰는 혼"
+msgid_plural "멧돼지의 날뛰는 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\item\tool.json
+msgid "나귀의 세공된 혼"
+msgid_plural "나귀의 세공된 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '나귀의 세공된 혼'}
+#: .\item\tool.json
+msgid "나귀 모양의 석상을 부수고 나온 보석입니다. 석상의 부릅 뜬 눈빛이 아로새겨진 듯 합니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "나귀의 박차는 혼"
+msgid_plural "나귀의 박차는 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\item\tool.json
+msgid "호저의 세공된 혼"
+msgid_plural "호저의 세공된 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '호저의 세공된 혼'}
+#: .\item\tool.json
+msgid "호저 모양의 석상을 부수고 나온 보석입니다. 석상의 부릅 뜬 눈빛이 아로새겨진 듯 합니다."
+msgstr ""
+
+#: .\item\tool.json
+msgid "호저의 덤벼드는 혼"
+msgid_plural "호저의 덤벼드는 혼"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\martial\MA_wild.json
+msgid "늑대의 이빨"
+msgstr ""
+
+#. ~ Description for martial art '늑대의 이빨'
+#: .\martial\MA_wild.json
+msgid ""
+"이 무술은 늑대의 움직임을 본따 고안되었습니다. 날카로운 감각으로 사냥감을 포착하고, 끈질기게 추적하여 그 이빨로 숨통을 끊습니다. 당신"
+" 손에 쥔 그것은 늑대의 이빨이며, 달빛 속에서 사냥은 멈추지 않을 것입니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '늑대의 이빨'
+#: .\martial\MA_wild.json
+msgid "한 마리 늑대처럼, 이빨을 들이밀 최적의 타이밍을 잽니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '늑대의 이빨'
+#: .\martial\MA_wild.json
+#, c-format
+msgid "%s(이)가 늑대같은 자세를 취합니다."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "늑대의 간격"
+msgstr ""
+
+#. ~ Description of buff '늑대의 간격' for martial art '늑대의 이빨'
+#: .\martial\MA_wild.json
+msgid ""
+"공격이 닿는 거리를 가늠하고, 동시에 상대의 공격이 닿지 않을만큼만 간격을 잡습니다.\n"
+"회피가 민첩의 25%만큼 상승."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "늑대의 감각"
+msgstr ""
+
+#. ~ Description of buff '늑대의 감각' for martial art '늑대의 이빨'
+#: .\martial\MA_wild.json
+msgid ""
+"감각을 집중하여 상대의 움직임을 정확히 포착합니다.\n"
+"명중이 지각력의 25% 만큼, 회피가 민첩의 25%만큼 상승."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "비웃는 그림자"
+msgstr ""
+
+#. ~ Description of buff '비웃는 그림자' for martial art '늑대의 이빨'
+#: .\martial\MA_wild.json
+msgid ""
+"농락당한 사냥감의 빈틈을 포착했습니다.\n"
+"명중 +2. 방어 관통이 힘의 60% 만큼 상승."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "곰의 발톱"
+msgstr ""
+
+#. ~ Description for martial art '곰의 발톱'
+#: .\martial\MA_wild.json
+msgid ""
+"이 무술은 곰의 움직임을 본따 고안되었습니다. 얼핏 미련해보일 정도로, 참고 견디면서 반격의 순간을 기다립니다. 당신 손에 쥔 그것은 "
+"곰의 발톱이며, 혹독한 북풍이 당신의 복수를 도울 것입니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '곰의 발톱'
+#: .\martial\MA_wild.json
+msgid "신중에 신중을 기하여, 최적의 때를 가늠합니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '곰의 발톱'
+#: .\martial\MA_wild.json
+#, c-format
+msgid "%s(이)가 신중하게 무기를 겨눕니다."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "곰의 신중함"
+msgstr ""
+
+#. ~ Description of buff '곰의 신중함' for martial art '곰의 발톱'
+#: .\martial\MA_wild.json
+msgid ""
+"경거망동하지 않고 신중히 목표를 정합니다.\n"
+"명중이 힘의 17%만큼 상승."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "산양의 뿔"
+msgstr ""
+
+#. ~ Description for martial art '산양의 뿔'
+#: .\martial\MA_wild.json
+msgid ""
+"이 무술은 산양의 움직임을 본따 고안되었습니다. 절벽을 타고 들판을 질주하는 자유로움과, 늠름한 뿔을 앞세워 들이받는 용맹함이 담겨 "
+"있습니다. 당신 손에 쥔 그것은 산양의 뿔이며, 저들의 진형을 무너뜨리고 벼랑 끝으로 몰아갈 것입니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '산양의 뿔'
+#: .\martial\MA_wild.json
+msgid "창을 꼬나쥐고 벽과 지면을 찰 준비를 합니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '산양의 뿔'
+#: .\martial\MA_wild.json
+#, c-format
+msgid "%s(이)가 벽과 지면을 곁눈질로 체크합니다."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "벽 뛰기"
+msgstr ""
+
+#. ~ Description of buff '벽 뛰기' for martial art '산양의 뿔'
+#: .\martial\MA_wild.json
+msgid ""
+"벽을 차고 뛰어 현란한 회피술을 펼칩니다.\n"
+"회피 기회 +1, 회피 +2.0"
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "산양의 질주"
+msgstr ""
+
+#. ~ Description of buff '산양의 질주' for martial art '산양의 뿔'
+#: .\martial\MA_wild.json
+msgid ""
+"분노한 산양처럼 질주하여 가속을 얻습니다.\n"
+"6스택. 1스택당:\n"
+"이동속도 5 증가. 민첩의 20%만큼 방어 관통. 찌르기 피해는 민첩의 30% 만큼 방어 관통. 찌르기 피해 4% 증가"
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "벽타기 질주"
+msgstr ""
+
+#. ~ Description of buff '벽타기 질주' for martial art '산양의 뿔'
+#: .\martial\MA_wild.json
+msgid ""
+"벽조차도 차고 달려 더욱 가속합니다.\n"
+"3스택. 1스택당:\n"
+"민첩의 20%만큼 방어 관통. 찌르기 피해는 민첩의 40% 만큼 방어 관통. 행동 코스트 9% 감소."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "멧돼지의 엄니"
+msgstr ""
+
+#. ~ Description for martial art '멧돼지의 엄니'
+#: .\martial\MA_wild.json
+msgid ""
+"이 무술은 멧돼지의 움직임을 본따 고안되었습니다. 무술이라기엔 너무 거칠지만, 그 대범한 동작은 자잘한 상처에 연연치 않고 상대의 목숨을"
+" 취하기 위함입니다. 당신 손에 쥔 그것은 멧돼지의 엄니이며, 넘어설 수 없는 태산으로 거듭날 것입니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '멧돼지의 엄니'
+#: .\martial\MA_wild.json
+msgid "숨을 거칠게 몰아쉬며, 위험으로 뛰어들 자세를 취합니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '멧돼지의 엄니'
+#: .\martial\MA_wild.json
+#, c-format
+msgid "%s(이)가 눈을 부라리며 뛰어들려 합니다."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "돼싸움"
+msgstr ""
+
+#. ~ Description of buff '돼싸움' for martial art '멧돼지의 엄니'
+#: .\martial\MA_wild.json
+msgid ""
+"방어니 회피니 하는 것들은 전부 거추장스러운 것들입니다. 오로지 공격만이 최선의 방어입니다.\n"
+"물리 피해 60% 상승. 방어 시 피해 경감 50% 감소. 회피 20% 감소."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "맹진"
+msgstr ""
+
+#. ~ Description of buff '맹진' for martial art '멧돼지의 엄니'
+#: .\martial\MA_wild.json
+msgid ""
+"뵈는 게 없기라도 한 듯, 위험을 향해 과감하게 달려듭니다.\n"
+"4스택. 1스택당:\n"
+"명중 -0.25, 이동속도 10% 상승. 피해량 6% 상승."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "나귀의 발굽"
+msgstr ""
+
+#. ~ Description for martial art '나귀의 발굽'
+#: .\martial\MA_wild.json
+msgid ""
+"이 무술은 나귀의 움직임을 본따 고안되었습니다. 때를 기다리는 인내심과 움직여야 할 때를 아는 판단력을 함께 겸비하였습니다. 당신 손에 "
+"쥔 그것은 나귀의 발굽이며, 누구도 당신의 대담한 횡보를 막아낼 수 없을 것입니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '나귀의 발굽'
+#: .\martial\MA_wild.json
+msgid "마음을 대담히 먹고 무기를 반 바퀴 휘둘러 겨눕니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '나귀의 발굽'
+#: .\martial\MA_wild.json
+#, c-format
+msgid "%s(이)가 그 무기를 반 바퀴 휘둘러 겨눕니다."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "익숙한 외길"
+msgstr ""
+
+#. ~ Description of buff '익숙한 외길' for martial art '나귀의 발굽'
+#: .\martial\MA_wild.json
+msgid ""
+"공격이 계속 명중할수록 점점 능숙하게 공격할 수 있습니다.\n"
+"5스택. 1스택당:\n"
+"명중 +0.4, 방어 관통이 힘의 15% 만큼 증가. 타격 관통은 30% 만큼 증가."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "나귀의 잔꾀"
+msgstr ""
+
+#. ~ Description of buff '나귀의 잔꾀' for martial art '나귀의 발굽'
+#: .\martial\MA_wild.json
+msgid ""
+"어떤 일이든, 심지어는 싸움조차도 요령이 있습니다.\n"
+"행동 코스트가 지능의 120%만큼 감소. 물리방어가 지능의 50%만큼 증가."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "호저의 가시"
+msgstr ""
+
+#. ~ Description for martial art '호저의 가시'
+#: .\martial\MA_wild.json
+msgid ""
+"이 무술은 호저의 움직임을 본따 고안되었습니다. 가시를 앞세워 적의 공격에 대항하고, 덤벼온 상대에겐 최악의 상처를 남깁니다. 당신 손에"
+" 쥔 그것은 호저의 가시이며, 덤벼오는 게 누구든 가장 지독한 형태로 끝을 맞이할 것입니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '호저의 가시'
+#: .\martial\MA_wild.json
+msgid "덤벼오는 누구든 지독하게 후벼파줄 기세로 무기를 잡습니다."
+msgstr ""
+
+#. ~ Initiate message for martial art '호저의 가시'
+#: .\martial\MA_wild.json
+#, c-format
+msgid "%s(이)가 독기를 품은 눈으로 무기를 잡습니다."
+msgstr ""
+
+#: .\martial\MA_wild.json
+msgid "가시 요새"
+msgstr ""
+
+#. ~ Description of buff '가시 요새' for martial art '호저의 가시'
+#: .\martial\MA_wild.json
+msgid ""
+"가시털을 세운 호저처럼, 회피를 포기하고 공격을 막아내기에 전념합니다.\n"
+"방어 기회 +2, 회피 -4"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "짐승의 몸부림"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "%s(이)가 붙잡으려 했으나, 야수처럼 거칠게 뿌리쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "%s(이)가 붙잡으려 했으나, <npcname>(은)는 거칠게 뿌리쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "피투성이 이빨"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "연이어 공격하여 %s의 얼을 빼놨다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 연달아 공격해 %s의 얼을 뺐다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "숨통 끊기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "%s의 급소를 참혹하게 찢어발겼다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 무참히 %s의 급소를 찢어냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "그믐달의 비소"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "허상에 속은 %s(을)를 비웃으며 칼날을 박아넣었다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 빈틈을 보인 %s에게 칼날을 쑤셔박았다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "베어풋"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "공격이 빗나갔지만 날쌔게 자세를 고쳤다."
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "<npcname>은 자세를 다시 똑바로 잡았다."
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "곰 찍기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "곰 앞발처럼 %s(을)를 후려치듯 베었다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 곰 앞발처럼 후려치듯 %s(을)를 베었다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "북풍 가르기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "기다림 끝에 %s(을)를 후려쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 기다린 끝에 %s(을)를 후려쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "맹웅 강타"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "사나운 곰처럼 %s(을)를 산산조각냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 사나운 곰처럼 %s(을)를 산산조각냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "들이받기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "산양이 들이받듯 창자루로 후려쳐 밀어냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>은 %s(을)를 창자루로 밀쳐냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "벼랑뛰기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "벽을 차고 뛰어 %s(을)를 내리찍었다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>은 벽을 짚고 뛰어 %s(을)를 내리찍었다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "진형 붕괴"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "온힘을 담은 질주에 %s의 대열이 무너졌다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "<npcname>(이)가 대열을 무너트렸다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "산양의 춤"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "벽을 짚고 뛰면서 %s에게 반격을 가했다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 벽을 짚고 뛰면서 %s에게 반격을 가했다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "엄니 받기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "%s의 하단을 무너트렸다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 %s의 하단을 무너트렸다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "산사태"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "넘어진 %s에게 타격의 세례가 쏟아냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 넘어진 %s에게 공격을 쏟아냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "뒷발길질"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "기습적으로 무기를 휘둘러 때렸다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "<npcname>(이)가 기습적으로 무기를 휘둘렀다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "울타리 꺾기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "%s의 자세를 무너트릴 기세로 후려쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 %s(을)를 억세게 후려쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "나려타곤"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "순간 자세를 납작 낮추어 %s의 발을 걸어 넘어트렸다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 자세를 납작 낮춰 %s의 발을 걸었다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "즈려밟기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "넘어진 %s(을)를 무자비하게 내리쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(은)는 넘어진 %s(을)를 무자비하게 내리쳤다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "가시 반격"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "공격해온 %s(이)가 도리어 음푹 찔렸다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 공격해온 %s(을)를 음푹 찔렀다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "쑤셔박기"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "공격해온 %s의 급소를 후벼파듯 도려냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 %s의 급소를 도려냈다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "광란의 앞니"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "기절한 %s(을)를 짧게 잡은 칼날로 재빠르게 갈랐다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(이)가 칼날을 짧게 잡고 기절한 %s(을)를 갈랐다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+msgid "파고드는 가시"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "기절한 %s의 급소에 칼날을 깊게 박아넣었다!"
+msgstr ""
+
+#: .\martial\techniques_wild.json
+#, c-format
+msgid "<npcname>(은)는 기절한 %s의 급소에 칼날을 깊이 박았다!"
+msgstr ""
+
+#: .\muts and spells\mutations.json
+msgid "달빛의 문장"
+msgstr ""
+
+#. ~ Description for {'str': '달빛의 문장'}
+#: .\muts and spells\mutations.json
+msgid "달의 신비가 깃들었다. 스태미나 10% 추가 재생"
+msgstr ""
+
+#: .\muts and spells\mutations.json
+msgid "요새의 문장"
+msgstr ""
+
+#. ~ Description for {'str': '요새의 문장'}
+#: .\muts and spells\mutations.json
+msgid "지독한 근성이 깃들었다. 스태미나 10% 추가 재생"
+msgstr ""
+
+#: .\muts and spells\mutations.json
+msgid "북풍의 문장"
+msgstr ""
+
+#. ~ Description for {'str': '북풍의 문장'}
+#: .\muts and spells\mutations.json
+msgid "북풍의 힘이 깃들었다. 스태미나 최대치 5% 상승"
+msgstr ""
+
+#: .\muts and spells\mutations.json
+msgid "태산의 문장"
+msgstr ""
+
+#. ~ Description for {'str': '태산의 문장'}
+#: .\muts and spells\mutations.json
+msgid "태산의 기개가 깃들었다. 스태미나 최대치 5% 상승"
+msgstr ""
+
+#: .\muts and spells\mutations.json
+msgid "벼랑의 문장"
+msgstr ""
+
+#. ~ Description for {'str': '벼랑의 문장'}
+#: .\muts and spells\mutations.json
+msgid "벼랑을 등진 용맹이 깃들었다. 스태미나 최대치 3% 상승. 스태미나 3% 추가 재생."
+msgstr ""
+
+#: .\muts and spells\mutations.json
+msgid "부동의 문장"
+msgstr ""
+
+#. ~ Description for {'str': '부동의 문장'}
+#: .\muts and spells\mutations.json
+msgid "무슨 일에도 동요치 않는 뚝심이 깃들었다. 스태미나 최대치 3% 상승. 스태미나 3% 추가 재생."
+msgstr ""
+
+#: .\muts and spells\spell.json
+msgid "돌 비추기"
+msgstr ""
+
+#. ~ Description for 돌 비추기
+#: .\muts and spells\spell.json
+msgid "석상에 가까이 대고 사용해주세요."
+msgstr ""
+
+#. ~ Message for SPELL '돌 비추기'
+#: .\muts and spells\spell.json
+msgid "돌거울이 발하는 빛을 비췄다!"
+msgstr ""
+
+#: .\muts and spells\spell.json
+msgid "정체 밝히기"
+msgstr ""
+
+#: .\muts and spells\spell.json
+msgid "고동치는 혼"
+msgstr ""
+
+#. ~ Description for 고동치는 혼
+#: .\muts and spells\spell.json
+msgid "이 혼을 자세히 들여다 보십시오."
+msgstr ""
+
+#. ~ Message for SPELL '고동치는 혼'
+#: .\muts and spells\spell.json
+msgid "혼이 당신을 꿰뚫어보는 느낌을 받았습니다..."
+msgstr ""
+
+#: .\muts and spells\ter_furn_transform.json
+msgid "이 석상은 아무래도 보통의 석상인 것 같다..."
+msgstr ""
+
+#: .\muts and spells\ter_furn_transform.json
+msgid "돌거울을 비추자 본래의 모습이 드러났다!"
+msgstr ""
