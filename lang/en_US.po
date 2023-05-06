@@ -15,7 +15,7 @@ msgstr ""
 
 #: .\furniture.json
 msgid "이 동상은 아무래도 평범한 석상인 것 같다."
-msgstr "This statue seems rather ordinary stuff."
+msgstr "This seems to be an ordinary stone statue."
 
 #: .\furniture.json
 msgid "늑대 석상"
@@ -28,8 +28,8 @@ msgid ""
 "아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말"
 "이 울리는 듯 합니다."
 msgstr ""
-"Wolf statue staring at you with yellow eyes.\n"
-"The moment you see the metal sign below, \"Prove your strength.\" The words "
+"A wolf statue staring at you with yellow eyes.\n"
+"The moment you see the metal sign below, the words \"Prove your strength.\""
 "ring in your head."
 
 #: .\furniture.json
@@ -51,8 +51,8 @@ msgid ""
 "아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말"
 "이 울리는 듯 합니다."
 msgstr ""
-"Bear statue staring at you with yellow eyes.\n"
-"The moment you see the metal sign below, \"Prove your strength.\" The words "
+"A bear statue staring at you with yellow eyes.\n"
+"The moment you see the metal sign below, the words \"Prove your strength.\""
 "ring in your head."
 
 #: .\furniture.json
@@ -66,8 +66,8 @@ msgid ""
 "아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말"
 "이 울리는 듯 합니다."
 msgstr ""
-"Goat statue staring at you with yellow eyes.\n"
-"The moment you see the metal sign below, \"Prove your strength.\" The words "
+"A goat statue staring at you with yellow eyes.\n"
+"The moment you see the metal sign below, the words \"Prove your strength.\""
 "ring in your head."
 
 #: .\furniture.json
@@ -81,8 +81,8 @@ msgid ""
 "아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말"
 "이 울리는 듯 합니다."
 msgstr ""
-"Boar statue staring at you with yellow eyes.\n"
-"The moment you see the metal sign below, \"Prove your strength.\" The words "
+"A boar statue staring at you with yellow eyes.\n"
+"The moment you see the metal sign below, the words \"Prove your strength.\""
 "ring in your head."
 
 #: .\furniture.json
@@ -96,8 +96,8 @@ msgid ""
 "아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말"
 "이 울리는 듯 합니다."
 msgstr ""
-"Donkey statue staring at you with yellow eyes.\n"
-"The moment you see the metal sign below, \"Prove your strength.\" The words "
+"A donkey statue staring at you with yellow eyes.\n"
+"The moment you see the metal sign below, the words \"Prove your strength.\""
 "ring in your head."
 
 #: .\furniture.json
@@ -111,8 +111,8 @@ msgid ""
 "아래쪽 금속 팻말을 보는 순간, 당신의 머릿속에 \"그대의 힘을 보여라.\" 라는 말"
 "이 울리는 듯 합니다."
 msgstr ""
-"Porcupine statue staring at you with yellow eyes.\n"
-"The moment you see the metal sign below, \"Prove your strength.\" The words "
+"A porcupine statue staring at you with yellow eyes.\n"
+"The moment you see the metal sign below, the words \"Prove your strength.\""
 "ring in your head."
 
 #: .\modinfo.json
@@ -125,7 +125,7 @@ msgid ""
 "짐승의 자세에서 비롯된 새로운 무기술을 추가합니다. 이 무기술은 특정한 석상을 "
 "찾아서 그 비급을 얻을 수 있습니다."
 msgstr ""
-"Adds weapon martial arts from style of beasts. This MA can be found in the "
+"Adds weapon martial arts from the styles of beasts. This MA can be found in the "
 "statues, which is revealed by relic mirror."
 
 #: .\item\books.json
@@ -239,8 +239,8 @@ msgid ""
 "\n"
 "석상을 흉내낸 가짜를 찾아라."
 msgstr ""
-"As far as you can tell, this mirror is of a style never seen before. "
-"Materials that cannot reflect something are illuminating the surroundings. "
+"As far as you can tell, this stone mirror is of a style never seen before. "
+"The reflective stone is strangely illuminating its surroundings. "
 "It seems that some kind of magical treatment has been applied.\n"
 "\n"
 "Find a mimic that imitates a statue."
@@ -250,7 +250,7 @@ msgstr ""
 #. ~ Relic recharge message for TOOL '{'str_sp': '웨어 비스트의 고대 거울'}'
 #: .\item\tool.json
 msgid "햇빛을 받은 거울에 광택이 감돈다!"
-msgstr "mirror regained its luster by being bathed in sunlight!"
+msgstr "the mirror regained its luster by being bathed in sunlight!"
 
 #: .\item\tool.json
 msgid "웨어 비스트의 청동 거울"
@@ -288,8 +288,8 @@ msgid ""
 "\n"
 "석상을 흉내낸 가짜를 찾아라."
 msgstr ""
-"A strangely shaped bronze mirror. Bronze has not been able to overcome the "
-"centuries and has become old and rusty, but its luster is strangely still "
+"A strangely shaped bronze mirror. The bronze has not withstood the "
+"test of time and has become old and rusty, but its luster is strangely still "
 "shining.\n"
 "\n"
 "Find a mimic that imitates a statue."
@@ -310,7 +310,7 @@ msgid ""
 "석상을 흉내낸 가짜를 찾아라."
 msgstr ""
 "As far as you can tell, this mirror is of a style never seen before. It no "
-"longer reflects light because the magic has been gone. Nevertheless, the "
+"longer reflects light because the magic is gone. Nevertheless, the "
 "engraving on the back still remains.\n"
 "\n"
 "Find a mimic that imitates a statue."
@@ -516,7 +516,7 @@ msgid ""
 "회피가 민첩의 25%만큼 상승."
 msgstr ""
 "You estimate the distance your attack can reach but the opponent's attack "
-"cannot do.\n"
+"cannot.\n"
 "Dodging Skill increased by 25% of Dexterity."
 
 #: .\martial\MA_wild.json
@@ -531,7 +531,7 @@ msgid ""
 msgstr ""
 "You concentrate your senses to accurately capture your opponent's "
 "movements.\n"
-"Accuracy increased 25% of Perception, Dodging Skill increased 25% of "
+"Accuracy increased by 25% of Perception, Dodging Skill increased by 25% of "
 "Dexterity."
 
 #: .\martial\MA_wild.json
@@ -544,7 +544,7 @@ msgid ""
 "농락당한 사냥감의 빈틈을 포착했습니다.\n"
 "명중 +2. 방어 관통이 힘의 60% 만큼 상승."
 msgstr ""
-"You have caught the point in your decieved prey.\n"
+"You've caught your prey off guard.\n"
 "+2 Accuracy. Armor penetration increased by 60% of Strength."
 
 #: .\martial\MA_wild.json
@@ -641,8 +641,8 @@ msgid ""
 msgstr ""
 "You gallop and accelerate like a furious goat.\n"
 "6 stacks. Per 1 stack:\n"
-"+5 movement speed. Armor penetration increased by 20% of Dexterity. For Stab "
-"damage, by 30%. +4% Stab Damage"
+"+5 movement speed. Armor penetration increased by 20% of Dexterity, Stab "
+"penetration by 30%. +4% increased Stab Damage"
 
 #: .\martial\MA_wild.json
 msgid "벽타기 질주"
@@ -658,7 +658,7 @@ msgid ""
 msgstr ""
 "Even kick the wall and accelerate even more.\n"
 "3 stacks. Per 1 stack:\n"
-"Armor penetration increased by 20% of Dexterity. For Stab damage, by 40%. - "
+"Armor penetration increased by 20% of Dexterity, stab penetration by 40%. - "
 "9% Movecost."
 
 #: .\martial\MA_wild.json
@@ -681,7 +681,7 @@ msgstr ""
 #. ~ Initiate message for martial art '멧돼지의 엄니'
 #: .\martial\MA_wild.json
 msgid "숨을 거칠게 몰아쉬며, 위험으로 뛰어들 자세를 취합니다."
-msgstr "You breathe heavily, poised to run into even danger."
+msgstr "You breathe heavily, poised to run into danger."
 
 #. ~ Initiate message for martial art '멧돼지의 엄니'
 #: .\martial\MA_wild.json
@@ -700,7 +700,7 @@ msgid ""
 "의 방어입니다.\n"
 "물리 피해 60% 상승. 방어 시 피해 경감 50% 감소. 회피 20% 감소."
 msgstr ""
-"Defending and dodging are all cumbersome things. Only offense is the best "
+"Defending and dodging are all cumbersome things. Offense is the best "
 "defense.\n"
 "+60% Physical damage. +50% Blocked damage. -20% Dodging skill."
 
@@ -759,8 +759,8 @@ msgid ""
 msgstr ""
 "The more your attacks hit, the more skillful you become.\n"
 "5 stacks. Per 1 stack:\n"
-"+0.4 hit, armor penetration increased by 15% of strength. For Bash damage, "
-"increased by 30% of."
+"+0.4 hit, armor penetration increased by 15% of strength. Penetration for bash, "
+"increased by 30%."
 
 #: .\martial\MA_wild.json
 msgid "나귀의 잔꾀"
@@ -1129,7 +1129,7 @@ msgstr "Sign of Moonlight"
 #. ~ Description for {'str': '달빛의 문장'}
 #: .\muts and spells\mutations.json
 msgid "달의 신비가 깃들었다. 스태미나 10% 추가 재생"
-msgstr "The secret of Moon dwelled. Regenerates 10% more Stamina"
+msgstr "The secret of Moon dwells. Regenerates 10% more Stamina"
 
 #: .\muts and spells\mutations.json
 msgid "요새의 문장"
@@ -1138,7 +1138,7 @@ msgstr "Sign of Fortress"
 #. ~ Description for {'str': '요새의 문장'}
 #: .\muts and spells\mutations.json
 msgid "지독한 근성이 깃들었다. 스태미나 10% 추가 재생"
-msgstr "The indomitable tenacity dwelled. Regenerates 10% more Stamina"
+msgstr "The indomitable tenacity dwells. Regenerates 10% more Stamina"
 
 #: .\muts and spells\mutations.json
 msgid "북풍의 문장"
@@ -1147,7 +1147,7 @@ msgstr "Sign of Gale"
 #. ~ Description for {'str': '북풍의 문장'}
 #: .\muts and spells\mutations.json
 msgid "북풍의 힘이 깃들었다. 스태미나 최대치 5% 상승"
-msgstr "The strength of the gale dwelled. Increases maximum stamina by 5%"
+msgstr "The strength of the gale dwells. Increases maximum stamina by 5%"
 
 #: .\muts and spells\mutations.json
 msgid "태산의 문장"
@@ -1156,7 +1156,7 @@ msgstr "Sign of Mountain"
 #. ~ Description for {'str': '태산의 문장'}
 #: .\muts and spells\mutations.json
 msgid "태산의 기개가 깃들었다. 스태미나 최대치 5% 상승"
-msgstr "The toughness of the mountain dwelled. Increases maximum stamina by 5%"
+msgstr "The toughness of the mountain dwells. Increases maximum stamina by 5%"
 
 #: .\muts and spells\mutations.json
 msgid "벼랑의 문장"
@@ -1167,7 +1167,7 @@ msgstr "Sign of Brink"
 msgid ""
 "벼랑을 등진 용맹이 깃들었다. 스태미나 최대치 3% 상승. 스태미나 3% 추가 재생."
 msgstr ""
-"The courage to stand at the brink dwelled. Increases maximum stamina by 3%. "
+"The courage to stand at the brink dwells. Increases maximum stamina by 3%. "
 "Regenerates 3% more Stamina."
 
 #: .\muts and spells\mutations.json
@@ -1180,7 +1180,7 @@ msgid ""
 "무슨 일에도 동요치 않는 뚝심이 깃들었다. 스태미나 최대치 3% 상승. 스태미나 "
 "3% 추가 재생."
 msgstr ""
-"The steadfastness to not be shaken by anything dwelled. Increases maximum "
+"The steadfastness to not be shaken by anything dwells. Increases maximum "
 "stamina by 3%. Regenerates 3% more Stamina."
 
 #: .\muts and spells\spell.json
@@ -1208,7 +1208,7 @@ msgstr "Beating Spirit"
 #. ~ Description for 고동치는 혼
 #: .\muts and spells\spell.json
 msgid "이 혼을 자세히 들여다 보십시오."
-msgstr "Look carefully this spirit."
+msgstr "Look carefully at this spirit."
 
 #. ~ Message for SPELL '고동치는 혼'
 #: .\muts and spells\spell.json
