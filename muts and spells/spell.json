@@ -40,8 +40,6 @@
         "flags": ["NO_HANDS", "NO_LEGS", "SILENT", "MUTATE_TRAIT"],
         "effect":"mutate",
         "effect_str":"W3_mut_wild_stagen1",
-        "base_casting_time":85,
-        "final_casting_time":85,
         "min_damage":10000,
         "max_damage":10000
     },
@@ -55,8 +53,6 @@
         "flags": ["NO_HANDS", "NO_LEGS", "SILENT", "MUTATE_TRAIT"],
         "effect":"mutate",
         "effect_str":"W3_mut_wild_stamax1",
-        "base_casting_time":85,
-        "final_casting_time":85,
         "min_damage":10000,
         "max_damage":10000
     },
@@ -70,8 +66,6 @@
         "flags": ["NO_HANDS", "NO_LEGS", "SILENT", "MUTATE_TRAIT"],
         "effect":"mutate",
         "effect_str":"W3_mut_wild_staall1",
-        "base_casting_time":85,
-        "final_casting_time":85,
         "min_damage":10000,
         "max_damage":10000
     },
@@ -85,8 +79,6 @@
         "flags": ["NO_HANDS", "NO_LEGS", "SILENT", "MUTATE_TRAIT"],
         "effect":"mutate",
         "effect_str":"W3_mut_wild_stamax2",
-        "base_casting_time":85,
-        "final_casting_time":85,
         "min_damage":10000,
         "max_damage":10000
     },
@@ -100,8 +92,6 @@
         "flags": ["NO_HANDS", "NO_LEGS", "SILENT", "MUTATE_TRAIT"],
         "effect":"mutate",
         "effect_str":"W3_mut_wild_staall2",
-        "base_casting_time":85,
-        "final_casting_time":85,
         "min_damage":10000,
         "max_damage":10000
     },
@@ -115,8 +105,6 @@
         "flags": ["NO_HANDS", "NO_LEGS", "SILENT", "MUTATE_TRAIT"],
         "effect":"mutate",
         "effect_str":"W3_mut_wild_stagen2",
-        "base_casting_time":85,
-        "final_casting_time":85,
         "min_damage":10000,
         "max_damage":10000
     }
