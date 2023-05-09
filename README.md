@@ -6,9 +6,9 @@
 
 This is a mod for Cataclysm:Bright Night. 
 
-It adds some martial arts, which was designed after movements of beasts.
+It adds some martial arts, which were designed after the movements of beasts.
 
-You can find manuals of these martial arts from statues. Among the statues, mimics imitate. 
+You can find manuals of these martial arts from statues, and among these statues are mimics that imitate them. 
 
 You can reveal them by using relic mirrors, which can be found in the pawnstore, museum, antique shop... or by **making one of them with its recipe** from a specific book. Don't worry. The book is in Cataclysm:Bright Night already and not very rare.
 
